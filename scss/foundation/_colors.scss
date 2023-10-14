@@ -17,13 +17,13 @@ $body-text-color: var(--dse-spotify-body-text, $grey6) !default;
 =            Text Button                     =
 =============================================*/
 
-$text-button-color: var(--dse-spotify-secondary-button-text, $grey6) !default;
+$text-button-color: var(--dse-spotify-text-button-color, $grey6) !default;
 $text-button-background: var(
-                --dse-spotify-secondary-button-border,
+                --dse-spotify-text-button-background,
                 $black
 ) !default;
 $text-button-hover: var(
-                --dse-spotify-secondary-button-text-hover,
+                --dse-spotify-text-button-text-hover,
                 $white
 ) !default;
 
