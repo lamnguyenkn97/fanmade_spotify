@@ -1,0 +1,23 @@
+@import '../foundation/variables'
+:root {
+  /* Text */
+  --dse-spotify-header-text: #{$white};
+  --dse-spotify-body-text: #{$grey6};
+
+  /* Button */
+
+  --dse-spotify-text-button-color: #{$grey6};
+  --dse-spotify-text-button-background: #{$black};
+  --dse-spotify-text-button-text-hover: #{$white};
+  --dse-spotify-primary-button-text: #{$black};
+  --dse-spotify-primary-button-background: #{$brandGreen};
+  --dse-spotify-secondary-button-text: #{$grey6};
+  --dse-spotify-secondary-button-border: #{$grey6};
+  --dse-spotify-secondary-button-background: #{$black};
+  --dse-spotify-secondary-button-text-hover: #{$white};
+
+  /* Navigation Button */
+  --dse-spotify-navigation-button-background: #{$black};
+  --dse-spotify-navigation-icon-color: #{$grey4};
+
+}
