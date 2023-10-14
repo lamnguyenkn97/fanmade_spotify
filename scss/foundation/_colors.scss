@@ -1,0 +1,58 @@
+@import "./variables";
+
+/**
+ *
+ * This file defined actual color of the system using for styling. This is default palette and developer can override it.
+ *
+ */
+
+/*=============================================
+=            Global Text Color            =
+=============================================*/
+
+$header-text-color: var(--dse-spotify-header-text, $white) !default;
+$body-text-color: var(--dse-spotify-body-text, $grey6) !default;
+
+/*=============================================
+=            Text Button                     =
+=============================================*/
+
+$text-button-color: var(--dse-spotify-secondary-button-text, $grey6) !default;
+$text-button-background: var(
+                --dse-spotify-secondary-button-border,
+                $black
+) !default;
+$text-button-hover: var(
+                --dse-spotify-secondary-button-text-hover,
+                $white
+) !default;
+
+/*=============================================
+=            Button                         =
+=============================================*/
+$primary-button-text: var(--dse-spotify-primary-button-text, $black) !default;
+$primary-button-background: var(--dse-spotify-primary-button-background, $brandGreen) !default;
+$secondary-button-text: var(
+                --dse-spotify-secondary-button-text,
+                $grey6
+) !default;
+$secondary-button-border-color: var(
+                --dse-spotify-secondary-button-border,
+                $grey6
+) !default;
+$secondary-button-background: var(
+                --dse-spotify-secondary-button-background,
+                $black
+) !default;
+$secondary-button-text-hover: var(
+                --dse-spotify-secondary-button-text-hover,
+                $white
+) !default;
+
+/*=============================================
+=            Navigation Button                =
+=============================================*/
+
+$navigation-button-background: var(--dse-spotify-navigation-button-background, $black) !default;
+$navigation-button-icon-color: var(--dse-spotify-navigation-icon-color, $grey4) !default;
+

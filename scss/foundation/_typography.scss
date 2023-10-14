@@ -1,0 +1,39 @@
+@import "./variables";
+
+/**
+ *
+ * This file defined typography for system. This is default  and developer can override it.
+ *
+ */
+
+/*=============================================
+ =            Body                             =
+ =============================================*/
+
+$body-font-size: var(--dse-spotify-body-fs, $fs-base) !default;
+$body-font-weight: var(--dse-spotify-body-fw, $fw-normal) !default;
+
+/*=============================================
+ =            Heading Font Size                =
+ =============================================*/
+
+$heading-font-size-h1: var(dse-spotify-font-size-h1, $h-1) !default;
+$heading-font-size-h2: var(dse-spotify-font-size-h2, $h-2) !default;
+$heading-font-size-h3: var(dse-spotify-font-size-h3, $h-3) !default;
+$heading-font-size-h4: var(dse-spotify-font-size-h4, $h-4) !default;
+$heading-font-size-h5: var(dse-spotify-font-size-h5, $h-5) !default;
+$heading-font-size-h6: var(dse-spotify-font-size-h6, $h-6) !default;
+
+/*=============================================
+ =            Heading Font weight                =
+ =============================================*/
+
+$heading-font-weight-h1: var(dse-spotify-font-weight-h1, $fw-black) !default;
+$heading-font-weight-h2: var(
+                dse-spotify-font-weight-h2,
+                $fw-extrabold
+) !default;
+$heading-font-weight-h3: var(dse-spotify-font-weight-h3, $fw-bold) !default;
+$heading-font-weight-h4: var(dse-spotify-font-weight-h4, $fw-semibold) !default;
+$heading-font-weight-h5: var(dse-spotify-font-weight-h5, $fw-medium) !default;
+$heading-font-weight-h6: var(dse-spotify-font-weight-h6, $fw-light) !default;
