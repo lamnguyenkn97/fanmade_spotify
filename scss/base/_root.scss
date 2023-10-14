@@ -1,4 +1,4 @@
-@import '../foundation/variables'
+@import "../foundation/variables";
 :root {
   /* Text */
   --dse-spotify-header-text: #{$white};
@@ -19,5 +19,4 @@
   /* Navigation Button */
   --dse-spotify-navigation-button-background: #{$black};
   --dse-spotify-navigation-icon-color: #{$grey4};
-
 }
