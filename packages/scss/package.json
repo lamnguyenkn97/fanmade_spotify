@@ -19,6 +19,9 @@
     "stylelint-scss": "^5.2.1"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.0",
+    "normalize-scss": "^7.0.1",
     "stylelint-config-prettier": "^9.0.5"
   },
   "husky": {
