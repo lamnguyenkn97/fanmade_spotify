@@ -1,12 +1,12 @@
-
+import React from "react";
 
 
 interface ButtonProps {
     label: string;
 }
 
-export const Button: React.FC<ButtonProps> = ({ label }) => {
+export const Button: React.FC<ButtonProps> =  ({ label }: ButtonProps) => {
     return (
-        <button>{label}</button>
+        <button className='dse-spotify-button-container'>{label}</button>
     );
 }

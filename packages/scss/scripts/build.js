@@ -29,6 +29,8 @@ const compile = (path, fileName) =>  {
         result.css.toString()
     )
 }
+
+compile('global.scss', 'lib/global.css')
 const allComponents = getAllComponents()
 allComponents.forEach(component => {
     compile(component.input, component.output)

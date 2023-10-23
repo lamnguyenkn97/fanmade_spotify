@@ -1,0 +1,11 @@
+@import "../foundation/all";
+
+
+.dse-spotify-button-container {
+  display: flex;
+  background: $primary-button-background;
+  color: $primary-button-text;
+  border: none;
+  padding: map-get($spacing, 'xxxs');
+
+}
