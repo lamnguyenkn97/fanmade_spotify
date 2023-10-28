@@ -7,9 +7,9 @@ const getAllComponents = () => {
     let allComponents = []
     const types = ['atoms', 'molecules', 'organisms']
     types.forEach(type => {
-        const allFiles = Fs.readdirSync(`./${type}`).map(file => ({
-            input:  Path.resolve(type, file),
-            output: `lib/${file.slice(0, -4)+'css'}`
+        const allFiles = Fs.readdirSync(`src/${type}`).map(file => ({
+            input: `src/${type}/${file}`,
+            output: `src/lib/${file.slice(0, -4)+'css'}`
         }))
         allComponents = [
             ...allComponents,
@@ -30,7 +30,7 @@ const compile = (path, fileName) =>  {
     )
 }
 
-compile('global.scss', 'lib/global.css')
+compile('src/global.scss', 'src/lib/global.css')
 const allComponents = getAllComponents()
 allComponents.forEach(component => {
     compile(component.input, component.output)

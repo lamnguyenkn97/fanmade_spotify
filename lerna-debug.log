@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '7.3.1',
+0 silly argv   '$0': '/Users/languyen/Documents/Personal Project/cloned_spotify/fanmade_spotify/node_modules/.bin/lerna',
+0 silly argv   script: 'dev'
+0 silly argv }
+1 notice cli v7.3.1
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath /Users/languyen/Documents/Personal Project/cloned_spotify/fanmade_spotify
+4 error SyntaxError: /Users/languyen/Documents/Personal Project/cloned_spotify/fanmade_spotify/packages/react/package.json: Unexpected token } in JSON at position 406
+4 error     at JSON.parse (<anonymous>)
+4 error     at _readFile (/Users/languyen/Documents/Personal Project/cloned_spotify/fanmade_spotify/node_modules/jsonfile/index.js:25:16)
+4 error     at async Promise.all (index 0)
+4 error     at async createProjectGraphWithPackages (/Users/languyen/Documents/Personal Project/cloned_spotify/fanmade_spotify/node_modules/lerna/dist/index.js:1331:18)
+4 error     at async detectProjects (/Users/languyen/Documents/Personal Project/cloned_spotify/fanmade_spotify/node_modules/lerna/dist/index.js:1451:24)

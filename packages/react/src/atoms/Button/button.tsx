@@ -7,6 +7,6 @@ interface ButtonProps {
 
 export const Button: React.FC<ButtonProps> =  ({ label }: ButtonProps) => {
     return (
-        <button className='dse-spotify-button-container'>{label}</button>
+        <button className='dse-spotify-button-container'>{label || 'button'}</button>
     );
 }

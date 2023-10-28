@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix",
-    "build": "node ./scripts/build.js"
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +22,8 @@
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^15.0.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1",
     "normalize-scss": "^7.0.1",
     "stylelint-config-prettier": "^9.0.5"
   },
