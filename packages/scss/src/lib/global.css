@@ -106,7 +106,7 @@
 /* Font size */
 /* Heading font size */
 /* Font-weight */
-/*=====  End of Typography block  ======*/
+/*=====  End of typography block  ======*/
 /*=============================================
 =            Breakpoint              =
 =============================================*/
@@ -210,7 +210,7 @@
 /* Font size */
 /* Heading font size */
 /* Font-weight */
-/*=====  End of Typography block  ======*/
+/*=====  End of typography block  ======*/
 /*=============================================
 =            Breakpoint              =
 =============================================*/
@@ -331,7 +331,7 @@
 /* Font size */
 /* Heading font size */
 /* Font-weight */
-/*=====  End of Typography block  ======*/
+/*=====  End of typography block  ======*/
 /*=============================================
 =            Breakpoint              =
 =============================================*/
@@ -449,7 +449,7 @@
 /* Font size */
 /* Heading font size */
 /* Font-weight */
-/*=====  End of Typography block  ======*/
+/*=====  End of typography block  ======*/
 /*=============================================
 =            Breakpoint              =
 =============================================*/
@@ -1021,7 +1021,7 @@ template {
 /* Font size */
 /* Heading font size */
 /* Font-weight */
-/*=====  End of Typography block  ======*/
+/*=====  End of typography block  ======*/
 /*=============================================
 =            Breakpoint              =
 =============================================*/
@@ -1033,18 +1033,18 @@ template {
 /*=====  End of Variables  ======*/
 :root {
   /* Text */
-  --dse-spotify-header-text: #ffffff;
+  --dse-spotify-header-text: #fff;
   --dse-spotify-body-text: #8c8a8a;
   /* Button */
   --dse-spotify-text-button-color: #8c8a8a;
   --dse-spotify-text-button-background: #181414;
-  --dse-spotify-text-button-text-hover: #ffffff;
+  --dse-spotify-text-button-text-hover: #fff;
   --dse-spotify-primary-button-text: #181414;
   --dse-spotify-primary-button-background: #57b660;
   --dse-spotify-secondary-button-text: #8c8a8a;
   --dse-spotify-secondary-button-border: #8c8a8a;
   --dse-spotify-secondary-button-background: #181414;
-  --dse-spotify-secondary-button-text-hover: #ffffff;
+  --dse-spotify-secondary-button-text-hover: #fff;
   /* Navigation Button */
   --dse-spotify-navigation-button-background: #181414;
   --dse-spotify-navigation-icon-color: #5e5b5b;

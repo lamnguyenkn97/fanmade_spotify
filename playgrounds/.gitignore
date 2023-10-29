@@ -1,3 +1,6 @@
 react/.cache
 react/yarn-error.log
 react/dist
+package-lock.json
+yarn-error.log
+./cache

@@ -35,8 +35,8 @@
 =============================================*/
 
 /* Brand Color */
-$brandGreen: #57b660;
-$white: #ffffff;
+$brand-green: #57b660;
+$white: #fff;
 $black: #181414;
 
 /* Neutral Colors */
@@ -50,14 +50,14 @@ $grey6: #8c8a8a;
 
 /* Utility Color */
 
-$blueMoon: #649aed;
-$redWine: #eb5640;
-$mellowYellow: #f6c874;
-$whiterShadeOfPale: #a7c2d1;
+$blue-moon: #649aed;
+$red-wine: #eb5640;
+$mellow-yellow: #f6c874;
+$whiter-shade-off-pale: #a7c2d1;
 $evergreen: #d5f479;
-$prettyInPink: #f7cfd4;
-$pinkMoon: #e57ba1;
-$yellowSubmarine: #f4e357;
+$pretty-in-pink: #f7cfd4;
+$pink-moon: #e57ba1;
+$yellow-submarine: #f4e357;
 
 /*=====  End of Color block  ======*/
 
@@ -66,65 +66,65 @@ $yellowSubmarine: #f4e357;
 =============================================*/
 
 /* Font-family */
-$circularBlackURL: url("../../public/Circular/CircularStd-Black.otf");
-$circularBlackItalicURL: url("../../public/Circular/CircularStd-BlackItalic.otf");
-$circularBoldURL: url("../../public/Circular/CircularStd-Bold.otf");
-$circularBoldItalicURL: url("../../public/Circular/CircularStd-BoldItalic.otf");
-$circularBookURL: url("../../public/Circular/CircularStd-Book.otf");
-$circularBookItalicURL: url("../../public/Circular/CircularStd-BookItalic.otf");
-$circularLightURL: url("../../public/Circular/CircularStd-Light.otf");
-$circularLightItalicURL: url("../../public/Circular/CircularStd-Light Italic.otf");
-$circularLightMediumURL: url("../../public/Circular/CircularStd-Medium.otf");
-$circularMediumItalicURL: url("../../public/Circular/CircularStd-MediumItalic.otf");
+$circular-black-url: url("../../public/Circular/CircularStd-Black.otf");
+$circular-black-italic-url: url("../../public/Circular/CircularStd-BlackItalic.otf");
+$circular-bold-url: url("../../public/Circular/CircularStd-Bold.otf");
+$circular-bold-italic-url: url("../../public/Circular/CircularStd-BoldItalic.otf");
+$circular-book-url: url("../../public/Circular/CircularStd-Book.otf");
+$circular-book-italic-url: url("../../public/Circular/CircularStd-BookItalic.otf");
+$circular-light-url: url("../../public/Circular/CircularStd-Light.otf");
+$circular-light-italic-url: url("../../public/Circular/CircularStd-Light Italic.otf");
+$circular-light-medium-url: url("../../public/Circular/CircularStd-Medium.otf");
+$circular-medium-italic-url: url("../../public/Circular/CircularStd-MediumItalic.otf");
 
 @font-face {
   font-family: CircularStd-Black;
-  src: $circularBlackURL;
+  src: $circular-black-url;
 }
 
 @font-face {
   font-family: CircularStd-BlackItalic;
-  src: $circularBlackItalicURL;
+  src: $circular-black-italic-url;
 }
 
 @font-face {
   font-family: CircularStd-Bold;
-  src: $circularBoldURL;
+  src: $circular-bold-url;
 }
 
 @font-face {
   font-family: CircularStd-BoldItalic;
-  src: $circularBoldItalicURL;
+  src: $circular-bold-italic-url;
 }
 
 @font-face {
   font-family: CircularStd-Book;
-  src: $circularBookURL;
+  src: $circular-book-url;
 }
 
 @font-face {
   font-family: CircularStd-BookItalic;
-  src: $circularBookItalicURL;
+  src: $circular-book-italic-url;
 }
 
 @font-face {
   font-family: CircularStd-Light;
-  src: $circularLightURL;
+  src: $circular-light-url;
 }
 
 @font-face {
   font-family: CircularStd-Light-Italic;
-  src: $circularLightItalicURL;
+  src: $circular-light-italic-url;
 }
 
 @font-face {
   font-family: CircularStd-Medium;
-  src: $circularLightMediumURL;
+  src: $circular-light-medium-url;
 }
 
 @font-face {
   font-family: CircularStd-MediumItalic;
-  src: $circularMediumItalicURL;
+  src: $circular-medium-italic-url;
 }
 
 /*=====  End of Font Family block  ======*/
@@ -135,12 +135,14 @@ $fs-sm: 0.875rem; // 14px
 $fs-base: 1rem; // 16px
 $fs-lg: 1.125rem; // 18px
 $fs-xl: 1.5rem; // 24px
+$fs-xxl: 2rem; // 32px
+$fs-xxxl: 3rem; // 48px
 
 /* Heading font size */
 
-$h-1: 1.375rem;
-$h-2: 1.375rem;
-$h-3: 1rem;
+$h-1: 3rem;
+$h-2: 2.5rem;
+$h-3: 2rem;
 $h-4: 1.125rem;
 $h-5: 0.75rem;
 $h-6: 0.75rem;
@@ -155,7 +157,7 @@ $fw-bold: 700;
 $fw-extrabold: 800;
 $fw-black: 900;
 
-/*=====  End of Typography block  ======*/
+/*=====  End of typography block  ======*/
 
 /*=============================================
 =            Breakpoint              =
@@ -166,7 +168,7 @@ $breakpoints: (
   // 768px
   lg: 64rem,
   // 1024px
-  xl: 80rem // 1280px,
+  xl: 80rem // 1280px,,,,
 );
 
 /*=====  End of Breakpoint block  ======*/
@@ -190,7 +192,7 @@ $spacing: (
   // 48px
   xxl: 4.5rem,
   // 72px
-  xxxl: 6rem // 96px,
+  xxxl: 6rem // 96px,,,,
 ) !default;
 
 /*=====  End of Breakpoint block  ======*/

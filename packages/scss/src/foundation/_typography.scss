@@ -10,8 +10,14 @@
  =            Body                             =
  =============================================*/
 
-$body-font-size: var(--dse-spotify-body-fs, $fs-base) !default;
+$title-font-size: var(--dse-spotify-body-fs, $fs-base) !default;
+$title2-font-size: var(--dse-spotify-title2-fs, $fs-sm) !default;
+$subtitle-font-size: var(--dse-spotify-subtitle-fs, $fs-xs) !default;
+$title-font-weight: var(--dse-spotify-title-fs, $fw-bold) !default;
 $body-font-weight: var(--dse-spotify-body-fw, $fw-normal) !default;
+$body1-font-size: var(--dse-spotify-body1-fs, $fs-lg) !default;
+$body2-font-size: var(--dse-spotify-body2-fs, $fs-base) !default;
+$body3-font-size: var(--dse-spotify-body3-fs, $fs-sm) !default;
 
 /*=============================================
  =            Heading Font Size                =
@@ -29,10 +35,7 @@ $heading-font-size-h6: var(dse-spotify-font-size-h6, $h-6) !default;
  =============================================*/
 
 $heading-font-weight-h1: var(dse-spotify-font-weight-h1, $fw-black) !default;
-$heading-font-weight-h2: var(
-  dse-spotify-font-weight-h2,
-  $fw-extrabold
-) !default;
+$heading-font-weight-h2: var(dse-spotify-font-weight-h2, $fw-bold) !default;
 $heading-font-weight-h3: var(dse-spotify-font-weight-h3, $fw-bold) !default;
 $heading-font-weight-h4: var(dse-spotify-font-weight-h4, $fw-semibold) !default;
 $heading-font-weight-h5: var(dse-spotify-font-weight-h5, $fw-medium) !default;
