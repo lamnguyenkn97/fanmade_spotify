@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Heading2} from '@dse.spotify/react';
-import '@dse.spotify/scss/src/lib/button.css';
+import {Color} from '@dse.spotify/react';
 
 
 ReactDOM.render(
-    <Heading2 text="HEADING1 TEXT"/>,
+    <Color width="1rem" height="1rem" hexCode='green' />,
     document.getElementById('root'))
