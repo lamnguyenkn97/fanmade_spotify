@@ -7,7 +7,7 @@ const Sass = require('node-sass');
 const getComponents = () => {
     let allComponents = [];
 
-    const types = ['atoms/typography', 'molecules'];
+    const types = ['atoms/typography', 'molecules', 'atoms/utility'];
 
     types.forEach(type => {
         const allFiles = Fs.readdirSync(`src/${type}`).map(file => ({
