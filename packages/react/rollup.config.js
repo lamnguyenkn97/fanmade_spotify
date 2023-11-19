@@ -2,7 +2,7 @@ import Ts from 'rollup-plugin-typescript2'
 
 
 export default {
-    input: ['src/index.tsx', 'src/atoms/Button/index.tsx'],
+    input: ['src/index.tsx'],
     output: {
         dir: 'lib',
         format: 'esm',
