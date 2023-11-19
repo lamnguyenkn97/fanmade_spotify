@@ -11,3 +11,11 @@
 
 
 }
+
+@each $size, $value in $spacing {
+  @each $dir, $dirName in $directions {
+    .dse-margin-#{$dirName}-#{$size} {
+      margin-#{$dirName}: $value;
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Color, Spacing} from '@dse.spotify/react';
 import '@dse.spotify/scss/src/lib/utility.css';
+import {Body1, Margin} from "@dse.spotify/react";
 
 
 ReactDOM.render(
-    <Color hexCode='green' width={Spacing.xxl} height={Spacing.xxl} />,
+    <Margin top size={'xxl'} left><Body1 text={'CRUEL SUMMER'}/></Margin>,
     document.getElementById('root'))
