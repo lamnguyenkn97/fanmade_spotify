@@ -17,5 +17,8 @@
     .dse-margin-#{$dirName}-#{$size} {
       margin-#{$dirName}: $value;
     }
+    .dse-padding-#{$dirName}-#{$size} {
+      padding-#{$dirName}: $value;
+    }
   }
 }
