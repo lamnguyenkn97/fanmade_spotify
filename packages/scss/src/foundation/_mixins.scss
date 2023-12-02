@@ -20,3 +20,21 @@
     @content;
   }
 }
+
+
+/*=============================================
+=   FONT FAMILY
+=
+=============================================*/
+
+@mixin font-black {
+  font-family: CircularStd-Black, sans-serif;
+}
+
+@mixin font-medium {
+  font-family: CircularStd-Medium, sans-serif;
+}
+
+@mixin font-light {
+  font-family: CircularStd-Light, sans-serif;
+}

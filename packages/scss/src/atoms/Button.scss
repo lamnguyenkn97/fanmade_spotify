@@ -1,7 +1,29 @@
-.dse-spotify-button-container {
-  display: flex;
-  //background: $primary-button-background;
-  //color: $primary-button-text;
-  //border: none;
-  //padding: map-get($spacing, 'xxxs');
+@import 'foundation/all';
+
+@mixin base-button($hoverTextColor) {
+  border-radius: $button-border-radius;
+  border: none;
+  @include font-medium;
+  &:hover{
+    transform: scale(1.2, 1.2);
+    background-color: $hoverTextColor;
+  }
+}
+
+.dse-spotify-primary-button {
+  @include base-button($primary-button-background-highlight);
+  background-color: $primary-button-background;
+  color: $primary-button-text;
+}
+
+.dse-spotify-secondary-button {
+  @include base-button($secondary-button-background);
+  background-color: $secondary-button-background;
+  color: $secondary-button-text;
+}
+
+.dse-spotify-white-button {
+  @include base-button($white-button-background);
+  background-color: $white-button-background;
+  color: $white-button-text-color;
 }

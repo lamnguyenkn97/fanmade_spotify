@@ -32,9 +32,13 @@ $primary-button-background: var(
   --dse-spotify-primary-button-background,
   $brand-green
 ) !default;
+$primary-button-background-highlight: var(
+                --dse-spotify-primary-button-background-highlight,
+                $brand-green-highlight
+) !default;
 $secondary-button-text: var(
   --dse-spotify-secondary-button-text,
-  $grey6
+  $white
 ) !default;
 $secondary-button-border-color: var(
   --dse-spotify-secondary-button-border,
@@ -49,6 +53,19 @@ $secondary-button-text-hover: var(
   $white
 ) !default;
 
+$white-button-text-color: var(
+                --dse-spotify-secondary-button-border,
+                $black
+) !default;
+$white-button-background: var(
+                --dse-spotify-secondary-button-background,
+                $white
+) !default;
+$white-button-text-hover: var(
+                --dse-spotify-secondary-button-text-hover,
+                $black
+) !default;
+
 /*=============================================
 =            Navigation Button                =
 =============================================*/
@@ -61,3 +78,18 @@ $navigation-button-icon-color: var(
   --dse-spotify-navigation-icon-color,
   $grey4
 ) !default;
+
+/*=============================================
+=            Background Icon                =
+=============================================*/
+
+$icon-background-color: var(
+                --dse-spotify-icon-background-color,
+                $grey1
+) !default;
+
+$icon-background-color-hover: var(
+                --dse-spotify-icon-background-color-hover,
+                $grey3
+) !default;
+$icon-border-radius: var(--dse-spotify-icon-border-radius, 50%) !default;

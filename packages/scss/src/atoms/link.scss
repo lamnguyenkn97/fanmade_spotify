@@ -1,0 +1,13 @@
+@import 'foundation/all';
+
+.dse-spotify-link {
+    @include font-medium;
+    color: $grey5;
+    font-size: $body1-font-size;
+    font-weight: $body-font-weight;
+    text-decoration: none;
+    &:hover {
+        color: $white;
+        text-decoration: underline;
+    }
+}

@@ -1,4 +1,53 @@
 @import "../foundation/variables";
+@font-face {
+  font-family: CircularStd-Black;
+  src: $circular-black-url;
+}
+
+@font-face {
+  font-family: CircularStd-BlackItalic;
+  src: $circular-black-italic-url;
+}
+
+@font-face {
+  font-family: CircularStd-Bold;
+  src: $circular-bold-url;
+}
+
+@font-face {
+  font-family: CircularStd-BoldItalic;
+  src: $circular-bold-italic-url;
+}
+
+@font-face {
+  font-family: CircularStd-Book;
+  src: $circular-book-url;
+}
+
+@font-face {
+  font-family: CircularStd-BookItalic;
+  src: $circular-book-italic-url;
+}
+
+@font-face {
+  font-family: CircularStd-Light;
+  src: $circular-light-url;
+}
+
+@font-face {
+  font-family: CircularStd-Light-Italic;
+  src: $circular-light-italic-url;
+}
+
+@font-face {
+  font-family: CircularStd-Medium;
+  src: $circular-light-medium-url;
+}
+
+@font-face {
+  font-family: CircularStd-MediumItalic;
+  src: $circular-medium-italic-url;
+}
 
 :root {
   /* Text */
@@ -12,12 +61,20 @@
   --dse-spotify-text-button-text-hover: #{$white};
   --dse-spotify-primary-button-text: #{$black};
   --dse-spotify-primary-button-background: #{$brand-green};
+  --dse-spotify-primary-button-background-highlight: #{$brand-green-highlight};
   --dse-spotify-secondary-button-text: #{$grey6};
   --dse-spotify-secondary-button-border: #{$grey6};
   --dse-spotify-secondary-button-background: #{$black};
   --dse-spotify-secondary-button-text-hover: #{$white};
+  --dse-spotify-white-button-text: #{$black};
+  --dse-spotify-white-button-background: #{$white};
 
   /* Navigation Button */
   --dse-spotify-navigation-button-background: #{$black};
   --dse-spotify-navigation-icon-color: #{$grey4};
+
+  /* Icon */
+    --dse-spotify-icon-background-color: #{$grey1};
+    --dse-spotify-icon-background-color-hover: #{$grey3};
+    --dse-spotify-icon-border-radius: 50%;
 }
