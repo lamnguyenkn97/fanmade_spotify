@@ -1,0 +1,8 @@
+@import 'foundation/all';
+.dse-spotify-icon {
+  border-radius: 50%;
+  padding: 10px;
+  &:hover {
+    background: $icon-background-color-hover;
+  }
+}

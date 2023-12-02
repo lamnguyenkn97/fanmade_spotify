@@ -1,0 +1,15 @@
+@import 'foundation/all';
+
+@mixin base-text-button($hoverTextColor) {
+  @include font-medium;
+  &:hover{
+    cursor: pointer;
+    color: $hoverTextColor;
+  }
+}
+.dse-spotify-primary-text-button {
+  @include font-medium;
+  @include base-text-button($white);
+  color: $text-button-color;
+
+}

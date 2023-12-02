@@ -36,6 +36,7 @@
 
 /* Brand Color */
 $brand-green: #57b660;
+$brand-green-highlight: #1fdf64;
 $white: #fff;
 $black: #181414;
 
@@ -164,11 +165,11 @@ $fw-black: 900;
 =============================================*/
 
 $breakpoints: (
-  md: 48rem,
+        md: 48rem,
   // 768px
-  lg: 64rem,
+        lg: 64rem,
   // 1024px
-  xl: 80rem // 1280px,,,,
+        xl: 80rem // 1280px,,,,
 );
 
 /*=====  End of Breakpoint block  ======*/
@@ -178,30 +179,73 @@ $breakpoints: (
 =============================================*/
 
 $spacing: (
-  xxxs: 0.25rem,
+        xxxs: 0.25rem,
   // 4px
-  xxs: 0.5rem,
+        xxs: 0.5rem,
   // 8px
-  xs: 1rem,
+        xs: 1rem,
   // 16px
-  md: 1.5rem,
+        md: 1.5rem,
   // 24px
-  lg: 2rem,
+        lg: 2rem,
   // 32px
-  xl: 3rem,
+        xl: 3rem,
   // 48px
-  xxl: 4.5rem,
+        xxl: 4.5rem,
   // 72px
-  xxxl: 6rem // 96px,,,,
+        xxxl: 6rem // 96px,,,,
 ) !default;
 
 
 $directions: (
-left: left,
-right: right,
-top: top,
-bottom: bottom,
+        left: left,
+        right: right,
+        top: top,
+        bottom: bottom,
 ) !default;
 /*=====  End of Breakpoint block  ======*/
 
 /*=====  End of Variables  ======*/
+
+
+/*=============================================
+=            Border Radis              =
+=============================================*/
+
+$button-border-radius: 4rem;
+
+
+/*=============================================
+=            Border Radis              =
+=============================================*/
+
+$stack-direction: (
+        row: row,
+        column: column,
+) !default;
+
+$stack-justify-content: (
+        start: flex-start,
+        end: flex-end,
+        center: center,
+        space-between: space-between,
+        space-around: space-around,
+        space-evenly: space-evenly,
+) !default;
+
+$stack-align-items: (
+        start: flex-start,
+        end: flex-end,
+        center: center,
+        baseline: baseline,
+        stretch: stretch,
+) !default;
+
+$stack-wrap : (
+        wrap: wrap,
+        nowrap: nowrap,
+        wrap-reverse: wrap-reverse,
+) !default;
+
+
+

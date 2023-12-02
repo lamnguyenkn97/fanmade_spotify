@@ -1,0 +1,24 @@
+@import 'foundation/all';
+
+
+@mixin base-flex($flexDirection: row, $flexWrap: no-wrap, $justifyContent: flex-start, $alignItems: flex-center, $alignContent: space-between) {
+  display: flex;
+  flex-direction: $flexDirection;
+  flex-wrap: $flexWrap;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+  align-content: $alignContent;
+}
+
+
+@each $dir, $dirValue in $stack-direction {
+  @each $alignItem, $alignItemValue in $stack-align-items {
+    @each $justifyContent, $justifyContentValue in $stack-justify-content {
+      @each $wrap, $wrapValue in $stack-wrap {
+        .dse-spotify-stack-#{$dir}-#{$alignItem}-#{$justifyContent}-#{$wrap} {
+          @include base-flex($dirValue, $wrapValue, $justifyContentValue, $alignItemValue);
+        }
+      }
+    }
+  }
+}
