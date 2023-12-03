@@ -241,11 +241,32 @@ $stack-align-items: (
         stretch: stretch,
 ) !default;
 
+$stack-gap: (
+        0: 0,
+        xxxs: 0.25rem, // 4px
+        xxs: 0.5rem, // 8px
+        xs: 1rem , // 16px
+        sm: 1.5rem, // 24px
+        md: 2rem, // 32px
+        lg: 3rem, // 48px
+        xl: 4.5rem, // 72px
+        xxl: 6rem, // 96px
+        xxxl: 8rem, // 128px
+) !default;
+
 $stack-wrap : (
         wrap: wrap,
         nowrap: nowrap,
         wrap-reverse: wrap-reverse,
 ) !default;
+
+
+
+/*=============================================
+=            Header              =
+ */
+
+$header-width : 70%;
 
 
 
