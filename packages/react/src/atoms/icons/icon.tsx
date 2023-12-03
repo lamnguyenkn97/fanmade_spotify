@@ -3,9 +3,12 @@ import React from "react";
 import {IconProp, SizeProp} from "@fortawesome/fontawesome-svg-core";
 
 
-export const SpotifyIcon = ({icon, size, border=false}: {icon: IconProp, size: SizeProp, border?:boolean})=>{
-    const borderIconStyle =  {}
+export const SpotifyIcon = ({icon, size, color,backgroundColor, border=false}: {icon: IconProp, size: SizeProp, backgroundColor?: string, border?:boolean, color?: string})=>{
+
+    const style = {
+        backgroundColor: backgroundColor
+    }
     return(
-        <FontAwesomeIcon className={'dse-spotify-icon'} icon={icon} size={size} style={border?borderIconStyle: {}} border={border}/>
+        <FontAwesomeIcon className={'dse-spotify-icon'} icon={icon} style={style} size={size} color={color} border={border}/>
     )
 }
