@@ -7,6 +7,6 @@ type Body1Prop = {
 
 export const Body1 = ({text}: Body1Prop)=>{
     return(
-        <p className='.dse-spotify-body1'>{text}</p>
+        <p className='dse-spotify-body1'>{text}</p>
     )
 }

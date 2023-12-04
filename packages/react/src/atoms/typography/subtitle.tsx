@@ -7,6 +7,6 @@ type SubtitleProp = {
 
 export const Subtitle = ({text}: SubtitleProp)=>{
     return(
-        <h2 className='.dse-spotify-subtitle'>{text}</h2>
+        <h2 className='dse-spotify-subtitle'>{text}</h2>
     )
 }

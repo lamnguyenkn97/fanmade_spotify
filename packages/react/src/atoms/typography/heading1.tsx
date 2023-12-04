@@ -6,6 +6,6 @@ export type Heading1Prop = {
 
 export const Heading1 = ({text}: Heading1Prop)=>{
     return(
-        <h1 className='.dse-spotify-heading1'>{text}</h1>
+        <h1 className='dse-spotify-heading1'>{text}</h1>
     )
 }

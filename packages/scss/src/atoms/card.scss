@@ -1,0 +1,20 @@
+@import 'foundation/all';
+
+@mixin base-card($backgroundColor) {
+  border-radius: $card-border-radius;
+  border: none;
+    background-color: $backgroundColor;
+}
+
+
+.dse-spotify-card-light {
+  @include base-card($card-light-background);
+}
+
+.dse-spotify-card-dark {
+  @include base-card($card-dark-background);
+}
+
+.dse-spotify-card-medium {
+  @include base-card($card-medium-background);
+}

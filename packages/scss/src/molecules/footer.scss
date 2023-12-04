@@ -1,0 +1,6 @@
+@import 'foundation/all';
+
+.dse-spotify-footer {
+  @include font-medium;
+  width: $footer-width;
+}
