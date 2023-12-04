@@ -117,6 +117,18 @@
 /*=====  End of Breakpoint block  ======*/
 /*=====  End of Variables  ======*/
 /*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Header              =
+ */
+/*=============================================
+=            Card              =
+ */
+/*=============================================
 =            Variables                        =
 =============================================*/
 /*=============================================
@@ -220,6 +232,18 @@
 =============================================*/
 /*=====  End of Breakpoint block  ======*/
 /*=====  End of Variables  ======*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Header              =
+ */
+/*=============================================
+=            Card              =
+ */
 /**
  *
  * This file defined actual color of the system using for styling. This is default palette and developer can override it.
@@ -238,6 +262,12 @@
 =            Navigation Button                =
 =============================================*/
 /*=============================================
+=            Background Icon                =
+=============================================*/
+/*=============================================
+=            Background Icon                =
+=============================================*/
+/*=============================================
 =            Variables                        =
 =============================================*/
 /*=============================================
@@ -341,6 +371,18 @@
 =============================================*/
 /*=====  End of Breakpoint block  ======*/
 /*=====  End of Variables  ======*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Header              =
+ */
+/*=============================================
+=            Card              =
+ */
 /**
  *
  * This file defined typography for system. This is default  and developer can override it.
@@ -460,7 +502,23 @@
 /*=====  End of Breakpoint block  ======*/
 /*=====  End of Variables  ======*/
 /*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Header              =
+ */
+/*=============================================
+=            Card              =
+ */
+/*=============================================
 =   to define common mixins for the system
+=
+=============================================*/
+/*=============================================
+=   FONT FAMILY
 =
 =============================================*/
 /**
@@ -1031,6 +1089,68 @@ template {
 =============================================*/
 /*=====  End of Breakpoint block  ======*/
 /*=====  End of Variables  ======*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Border Radis              =
+=============================================*/
+/*=============================================
+=            Header              =
+ */
+/*=============================================
+=            Card              =
+ */
+@font-face {
+  font-family: CircularStd-Black;
+  src: url("../../public/Circular/CircularStd-Black.otf");
+}
+
+@font-face {
+  font-family: CircularStd-BlackItalic;
+  src: url("../../public/Circular/CircularStd-BlackItalic.otf");
+}
+
+@font-face {
+  font-family: CircularStd-Bold;
+  src: url("../../public/Circular/CircularStd-Bold.otf");
+}
+
+@font-face {
+  font-family: CircularStd-BoldItalic;
+  src: url("../../public/Circular/CircularStd-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: CircularStd-Book;
+  src: url("../../public/Circular/CircularStd-Book.otf");
+}
+
+@font-face {
+  font-family: CircularStd-BookItalic;
+  src: url("../../public/Circular/CircularStd-BookItalic.otf");
+}
+
+@font-face {
+  font-family: CircularStd-Light;
+  src: url("../../public/Circular/CircularStd-Light.otf");
+}
+
+@font-face {
+  font-family: CircularStd-Light-Italic;
+  src: url("../../public/Circular/CircularStd-Light Italic.otf");
+}
+
+@font-face {
+  font-family: CircularStd-Medium;
+  src: url("../../public/Circular/CircularStd-Medium.otf");
+}
+
+@font-face {
+  font-family: CircularStd-MediumItalic;
+  src: url("../../public/Circular/CircularStd-MediumItalic.otf");
+}
+
 :root {
   /* Text */
   --dse-spotify-header-text: #fff;
@@ -1041,11 +1161,22 @@ template {
   --dse-spotify-text-button-text-hover: #fff;
   --dse-spotify-primary-button-text: #181414;
   --dse-spotify-primary-button-background: #57b660;
+  --dse-spotify-primary-button-background-highlight: #1fdf64;
   --dse-spotify-secondary-button-text: #8c8a8a;
   --dse-spotify-secondary-button-border: #8c8a8a;
   --dse-spotify-secondary-button-background: #181414;
   --dse-spotify-secondary-button-text-hover: #fff;
+  --dse-spotify-white-button-text: #181414;
+  --dse-spotify-white-button-background: #fff;
   /* Navigation Button */
   --dse-spotify-navigation-button-background: #181414;
   --dse-spotify-navigation-icon-color: #5e5b5b;
+  /* Icon */
+  --dse-spotify-icon-background-color: #2a2626;
+  --dse-spotify-icon-background-color-hover: #464343;
+  --dse-spotify-icon-border-radius: 50%;
+  /* Card */
+  --dse-spotify-card-light-background: #8c8a8a;
+  --dse-spotify-card-medium-background: #252525;
+  --dse-spotify-card-dark-background: #181818;
 }

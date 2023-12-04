@@ -7,6 +7,6 @@ type TitleProp = {
 
 export const Title = ({text}: TitleProp)=>{
     return(
-        <h2 className='.dse-spotify-title1'>{text}</h2>
+        <h2 className='dse-spotify-title1'>{text}</h2>
     )
 }

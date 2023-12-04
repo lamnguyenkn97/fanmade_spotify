@@ -93,3 +93,22 @@ $icon-background-color-hover: var(
                 $grey3
 ) !default;
 $icon-border-radius: var(--dse-spotify-icon-border-radius, 50%) !default;
+
+/*=============================================
+=            Background Icon                =
+=============================================*/
+
+$card-light-background: var(
+                --dse-spotify-card-light-background,
+                $grey7
+) !default;
+
+$card-medium-background: var(
+                --dse-spotify-card-medium-background,
+                $grey8
+) !default;
+
+$card-dark-background: var(
+                --dse-spotify-card-dark-background,
+                $grey9
+) !default;

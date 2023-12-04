@@ -20,7 +20,7 @@ export const Button = ({variant, size = 'medium', text, onClick, icon, iconSize}
     }
     const mappedClasses = paddingClasses.map((paddingClass) => `${paddingClass}-${mappingSize[size]}`)
     return (
-        <button className={`dse-spotify-${variant}-button ${mappedClasses.join(' ')} ${icon?' dse-spotify-stack-row-center-center-wrap': ''}`} onClick={onClick}>
+        <button className={`dse-spotify-${variant}-button ${mappedClasses.join(' ')} ${icon?' dse-spotify-stack-row-center-center-wrap-xxs': ''}`} onClick={onClick}>
             {icon && <SpotifyIcon icon={icon} size={iconSize || 'lg'} border={false}/>}
             <div>{text}</div>
         </button>
