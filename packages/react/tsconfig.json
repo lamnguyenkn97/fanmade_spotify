@@ -12,8 +12,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "declaration": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "esModuleInterop": true,
   },
-  "include": ["src"],
+  "include": ["src", "public"],
   "exclude": ["node_modules", "lib"]
 }

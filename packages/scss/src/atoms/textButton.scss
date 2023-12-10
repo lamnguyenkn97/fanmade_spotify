@@ -8,8 +8,6 @@
   }
 }
 .dse-spotify-primary-text-button {
-  @include font-medium;
   @include base-text-button($white);
   color: $text-button-color;
-
 }

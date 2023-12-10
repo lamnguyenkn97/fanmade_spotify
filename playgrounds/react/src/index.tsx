@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '@dse.spotify/scss/src/lib/button.css';
-import '@dse.spotify/scss/src/lib/utility.css';
 import '@dse.spotify/scss/src/lib/textButton.css';
+import '@dse.spotify/scss/src/lib/utility.css';
 import '@dse.spotify/scss/src/lib/link.css';
 import '@dse.spotify/scss/src/lib/icon.css';
 import '@dse.spotify/scss/src/lib/stack.css';
@@ -11,7 +11,7 @@ import '@dse.spotify/scss/src/lib/header.css';
 import '@dse.spotify/scss/src/lib/footer.css';
 import '@dse.spotify/scss/src/lib/body.css';
 import '@dse.spotify/scss/src/lib/card.css';
-import {SpotifyIcon, TextButton, TextField, Button, Divider, Card, Body1} from "@dse.spotify/react";
+import {SpotifyIcon, TextButton, TextField, Button, Divider, HomeCards} from "@dse.spotify/react";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 
@@ -22,6 +22,6 @@ ReactDOM.render(
         <Button variant={'primary'} text={'Button Icon'} onClick={() => {}} icon={faEnvelope} size='large'/>
         <Divider width={100} height={1}/>
         <TextField label={'username'} name={'username'} placeholder={'Lam Nguyen'}/>
-        <Card variant={'light'} width={'10rem'} height={'20rem'}><Body1 text={'ABC'}/></Card>
+        <HomeCards/>
     </>,
     document.getElementById('root'))
