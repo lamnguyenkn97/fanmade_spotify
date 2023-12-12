@@ -1,0 +1,20 @@
+@import "foundation/all";
+
+.dse-spotify-text-field {
+  @include font-medium;
+  label {
+    color: white;
+  }
+  input {
+    width: $input-width;
+    height: $input-height;
+    background: $input-background;
+    border: $input-border;
+    padding-left: $input-padding-left;
+    border-radius: $input-border-radius;
+    color: $grey5;
+    &:hover {
+      border-color: white;
+    }
+  }
+}

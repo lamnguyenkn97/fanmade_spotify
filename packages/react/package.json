@@ -15,5 +15,8 @@
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "dev": "yarn build --watch"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.1"
   }
 }

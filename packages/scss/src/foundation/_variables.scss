@@ -213,14 +213,14 @@ $directions: (
 
 
 /*=============================================
-=            Border Radis              =
+=            Border              =
 =============================================*/
 
 $button-border-radius: 4rem;
 
 
 /*=============================================
-=            Border Radis              =
+=            Stack              =
 =============================================*/
 
 $stack-direction: (
@@ -267,19 +267,59 @@ $stack-wrap : (
 
 
 /*=============================================
-=            Header              =
- */
-
+=            HEADER              =
+*/
 $header-width : 70%;
 $footer-width: 60%;
 
-
-
 /*=============================================
-=            Card              =
+=            CARD              =
  */
 
 $card-border-radius: 0.5rem;
+
+
+/*=============================================
+=            NAV BAR                          =
+ */
+
+$nav-bar-height: 6rem;
+$nav-bar-left-padding: 2rem;
+
+
+/*=============================================
+=           LOGIN PAGE                        =
+ */
+
+$login-card-width: 30%;
+$login-card-height: 60%;
+$login-page-background: linear-gradient($grey8, black);
+$login-page-padding: 10rem;
+$login-page-padding-top: 1.5rem;
+$login-page-height: 100vh;
+
+
+/*=============================================
+=            INPUT                           =
+=============================================*/
+$input-width: 18.75rem;
+$input-height: 3.125rem;
+$input-background: $grey0;
+$input-border: 1px solid $grey6;
+$input-padding-left: 1rem;
+$input-border-radius: 0.625rem;
+$input-color: $grey5;
+
+$toggle-width: 2.5rem;
+$toggle-height: 1.25rem;
+$toggle-slider-background: $grey4;
+$toggle-transition: 0.4s;
+$toggle-border-radius: 2rem;
+$toggle-before-height: 0.625rem;
+$toggle-checked-translate: 1.2rem;
+$toggle-before-radius: 0.3125rem;
+
+
 
 
 

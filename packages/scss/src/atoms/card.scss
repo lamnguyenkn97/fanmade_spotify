@@ -18,3 +18,7 @@
 .dse-spotify-card-medium {
   @include base-card($card-medium-background);
 }
+
+.dse-spotify-card-black {
+  @include base-card($card-black-background);
+}
