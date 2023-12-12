@@ -62,7 +62,7 @@
   --dse-spotify-primary-button-text: #{$black};
   --dse-spotify-primary-button-background: #{$brand-green};
   --dse-spotify-primary-button-background-highlight: #{$brand-green-highlight};
-  --dse-spotify-secondary-button-text: #{$grey6};
+  --dse-spotify-secondary-button-text: #{$white};
   --dse-spotify-secondary-button-border: #{$grey6};
   --dse-spotify-secondary-button-background: #{$black};
   --dse-spotify-secondary-button-text-hover: #{$white};
@@ -82,7 +82,7 @@
     --dse-spotify-card-light-background: #{$grey6};
     --dse-spotify-card-medium-background: #{$grey7};
     --dse-spotify-card-dark-background: #{$grey8};
-
+  --dse-spotify-card-black-background: #{black};
 }
 
 

@@ -10,17 +10,23 @@ type ButtonProps = {
     children?: React.ReactNode;
     icon?: IconProp;
     iconSize?: SizeProp
+    width?: string;
+    height?: string;
 }
-export const Button = ({variant, size = 'medium', text, onClick, icon, iconSize}: ButtonProps) => {
+export const Button = ({variant, size = 'medium', text, onClick, icon, iconSize, width, height}: ButtonProps) => {
     const paddingClasses = ['dse-padding-right', 'dse-padding-left', 'dse-padding-top', 'dse-padding-bottom']
     const mappingSize = {
-        'small': 'xxs',
+        'small': 'xs',
         'medium': 'md',
         'large': 'lg'
     }
+    const style = {
+        width,
+        height
+    }
     const mappedClasses = paddingClasses.map((paddingClass) => `${paddingClass}-${mappingSize[size]}`)
     return (
-        <button className={`dse-spotify-${variant}-button ${mappedClasses.join(' ')} ${icon?' dse-spotify-stack-row-center-center-wrap-xxs': ''}`} onClick={onClick}>
+        <button style={style} className={`dse-spotify-${variant}-button ${mappedClasses.join(' ')} ${icon?' dse-spotify-stack-row-center-center-wrap-xxs': ''}`} onClick={onClick}>
             {icon && <SpotifyIcon icon={icon} size={iconSize || 'lg'} border={false}/>}
             <div>{text}</div>
         </button>

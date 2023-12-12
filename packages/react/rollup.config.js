@@ -1,8 +1,5 @@
 import Ts from 'rollup-plugin-typescript2'
-import commonjs from 'rollup-plugin-commonjs';
-import resolve from 'rollup-plugin-node-resolve';
-import image from 'rollup-plugin-image';
-
+import images from 'rollup-plugin-image-files';
 export default {
     input: ['src/index.tsx'],
     output: {
@@ -10,7 +7,7 @@ export default {
         format: 'esm',
         sourcemap: true
     },
-    plugins: [Ts()],
+    plugins: [Ts(),images()],
     preserveModules: true,
     external: ['react']
 }

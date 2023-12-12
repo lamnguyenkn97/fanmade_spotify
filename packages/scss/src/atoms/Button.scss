@@ -4,22 +4,27 @@
   border-radius: $button-border-radius;
   border: none;
   @include font-medium;
-  &:hover{
-    transform: scale(1.2, 1.2);
-    background-color: $hoverTextColor;
-  }
 }
 
 .dse-spotify-primary-button {
   @include base-button($primary-button-background-highlight);
   background-color: $primary-button-background;
   color: $primary-button-text;
+  &:hover {
+    background-color: $primary-button-background-highlight;
+    transform: scale(1.05, 1.05);
+  }
 }
 
 .dse-spotify-secondary-button {
   @include base-button($secondary-button-background);
   background-color: $secondary-button-background;
   color: $secondary-button-text;
+  border: 1px solid $secondary-button-border-color;
+
+  &:hover {
+    border-color: $secondary-button-text;
+  }
 }
 
 .dse-spotify-white-button {

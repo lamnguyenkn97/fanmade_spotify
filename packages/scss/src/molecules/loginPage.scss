@@ -1,0 +1,14 @@
+@import 'foundation/all';
+
+.dse-spotify-login {
+  background: $login-page-background;
+  height: $login-page-height;
+  padding: $login-page-padding;
+  padding-top: $login-page-padding-top;
+  .dse-spotify-login-toggle {
+    width: calc(#{$input-width} + 0.5rem);
+    padding: 0;
+    float: left
+  }
+
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 type CardProps = {
-    variant: 'light' | 'medium' | 'dark'
+    variant: 'light' | 'medium' | 'dark' | 'black',
     width: string,
     height: string,
     children: React.ReactNode
