@@ -1,8 +1,6 @@
 import React from 'react'
 import {Body1, Body3, Stack} from "../../atoms";
 
-
-
 export const Footer = () => {
     return(
         <footer className={'dse-spotify-footer'}>

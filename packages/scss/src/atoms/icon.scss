@@ -1,9 +1,17 @@
 @import 'foundation/all';
-.dse-spotify-icon {
+@mixin base-icon() {
   border-radius: 50%;
-  border: none;
-  padding: 10px;
+}
+.dse-spotify-icon {
+  @include base-icon;
   &:hover {
     background: $icon-background-color-hover;
+  }
+}
+
+.dse-spotify-icon-button {
+  @include base-icon;
+  &:hover {
+    color: white;
   }
 }

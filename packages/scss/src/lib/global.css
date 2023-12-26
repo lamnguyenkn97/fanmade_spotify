@@ -138,6 +138,9 @@
 =            INPUT                           =
 =============================================*/
 /*=============================================
+=            HOME PAGE                        =
+ */
+/*=============================================
 =            Variables                        =
 =============================================*/
 /*=============================================
@@ -262,6 +265,9 @@
 /*=============================================
 =            INPUT                           =
 =============================================*/
+/*=============================================
+=            HOME PAGE                        =
+ */
 /**
  *
  * This file defined actual color of the system using for styling. This is default palette and developer can override it.
@@ -410,6 +416,9 @@
 /*=============================================
 =            INPUT                           =
 =============================================*/
+/*=============================================
+=            HOME PAGE                        =
+ */
 /**
  *
  * This file defined typography for system. This is default  and developer can override it.
@@ -549,6 +558,9 @@
 /*=============================================
 =            INPUT                           =
 =============================================*/
+/*=============================================
+=            HOME PAGE                        =
+ */
 /*=============================================
 =   to define common mixins for the system
 =
@@ -1146,6 +1158,9 @@ template {
 /*=============================================
 =            INPUT                           =
 =============================================*/
+/*=============================================
+=            HOME PAGE                        =
+ */
 @font-face {
   font-family: CircularStd-Black;
   src: url("../../public/Circular/CircularStd-Black.otf");
@@ -1221,8 +1236,16 @@ template {
   --dse-spotify-icon-background-color-hover: #464343;
   --dse-spotify-icon-border-radius: 50%;
   /* Card */
-  --dse-spotify-card-light-background: #8c8a8a;
+  --dse-spotify-card-light-background: #242424;
   --dse-spotify-card-medium-background: #252525;
   --dse-spotify-card-dark-background: #181818;
   --dse-spotify-card-black-background: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
 }
