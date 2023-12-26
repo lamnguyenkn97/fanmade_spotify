@@ -22,3 +22,16 @@
         text-decoration: underline;
     }
 }
+
+
+.dse-spotify-link-third {
+    @include font-medium;
+    color: $grey11;
+    font-size: $body1-font-size;
+    font-weight: $body-font-weight;
+    text-decoration: none;
+    &:hover {
+        color: $white;
+        text-decoration: underline;
+    }
+}

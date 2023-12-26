@@ -10,12 +10,22 @@ type StackProps = {
     gap?: '0' | 'xxxs' | 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | 'xxxl'
     height?: string
 }
-export const Stack = ({children, direction, align, justify, wrap, className, gap='xs', height}: StackProps) => {
-    const stackStyle={
-        height: height
+export const Stack = ({
+                          children,
+                          direction = 'row',
+                          align = 'center',
+                          justify = 'start',
+                          wrap = 'nowrap',
+                          className,
+                          gap = 'xs',
+                          height
+                      }: StackProps) => {
+    const stackStyle = {
+        height: height,
     }
     return (
-        <div className={`dse-spotify-stack-${direction}-${align}-${justify}-${wrap}-${gap} ${className}`} style={stackStyle}>
+        <div className={`dse-spotify-stack-${direction}-${align}-${justify}-${wrap}-${gap} ${className}`}
+             style={stackStyle}>
             {children}
         </div>
     )

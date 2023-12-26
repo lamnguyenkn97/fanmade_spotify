@@ -17,7 +17,7 @@ export const TextButton = ({variant,  text, onClick, icon, iconSize}: TextButton
     if (icon) {
         return (
             <Stack direction={'row'} align={'center'} wrap={'nowrap'} justify={'space-between'}>
-                <SpotifyIcon icon={icon} size={iconSize || 'lg'} color={Colors.grey6} />
+                <SpotifyIcon icon={icon} size={iconSize || 'lg'} color={Colors.grey6} iconButton />
                 <Body2 className={`dse-spotify-${variant}-text-button`} onClick={onClick} text={text} />
             </Stack>
         )

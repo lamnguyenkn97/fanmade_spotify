@@ -16,10 +16,11 @@ import '@dse.spotify/scss/src/lib/global.css';
 import '@dse.spotify/scss/src/lib/textField.css';
 import '@dse.spotify/scss/src/lib/toggle.css';
 import '@dse.spotify/scss/src/lib/loginPage.css';
-import {LoginPage} from "@dse.spotify/react";
+import '@dse.spotify/scss/src/lib/homeCards.css';
+import {HomePage} from "@dse.spotify/react";
 
 
 ReactDOM.render(
-    <LoginPage/>
+    <HomePage/>
     ,
     document.getElementById('root'))
