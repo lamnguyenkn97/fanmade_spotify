@@ -2,7 +2,7 @@ export const Colors = {
     brandGreen: '#57b660',
     brandGreenHighlight: '#1fdf64',
     white: '#fff',
-    black: '#181414',
+    black: '#000',
     /* Neutral Colors */
     grey0: '#211d1d',
     grey1: '#2a2626',
@@ -11,6 +11,15 @@ export const Colors = {
     grey4: '#5e5b5b',
     grey5: '#747272',
     grey6: '#8c8a8a',
+    grey7: '#252525',
+    grey8: '#181818',
+    grey9: '#121212',
+    grey10: '#242424',
+    grey11: '#a7a7a7',
+    grey12: '#101010',
+    grey13: '#8d8d8d',
+    grey14: '#292929',
+
     /* Utility Color */
     blueMoon: '#649aed',
     redWine: '#eb5640',

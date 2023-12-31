@@ -1,14 +1,18 @@
 import React from "react";
-import {Body2, Body3, Button, Card, Link, Stack, TextButton} from "../../atoms";
-import {faBook, faEarth} from "@fortawesome/free-solid-svg-icons";
+import {Body2, Body3, Button, Card, Link, SpotifyIcon, Stack, TextButton} from "../../atoms";
+import {faBook, faEarth, faPlus} from "@fortawesome/free-solid-svg-icons";
+import {Colors} from "@dse.e/foundation/lib/color";
 
 export const LibraryCards = () => {
     return(
         <div className={'dse-spotify-library-card'}>
             <Card variant={'dark'} padding={'10px'}>
                 <Stack direction={'column'} wrap={'nowrap'} justify={'space-between'} align={'start'} height={'100%'}>
-                    <Stack direction={'column'} align={'start'}>
-                        <TextButton variant={'primary'} text={'Your Library'} onClick={()=> {}} icon={faBook}/>
+                    <Stack direction={'column'} align={'start'} width={'100%'}>
+                        <Stack justify={'space-between'} width={'100%'}>
+                            <TextButton variant={'primary'} text={'Your Library'} onClick={()=> {}} icon={faBook}/>
+                            <SpotifyIcon icon={faPlus} size={'1x'} color={Colors.grey6}/>
+                        </Stack>
                         <Card variant={'light'} padding={'20px'}>
                             <Stack direction={'column'} wrap={'nowrap'} justify={'space-evenly'} align={'start'}>
                                 <Body2 color={'white'} text={'Create your first playlist'} />
@@ -37,6 +41,5 @@ export const LibraryCards = () => {
                 </Stack>
             </Card>
         </div>
-
     )
 }

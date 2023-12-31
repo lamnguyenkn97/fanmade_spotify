@@ -1,0 +1,22 @@
+@import 'foundation/all';
+
+@mixin base-panel($backgroundColor) {
+  border: none;
+  background-color: $backgroundColor;
+}
+
+.dse-spotify-panel-light {
+  @include base-panel($card-light-background);
+}
+
+.dse-spotify-panel-dark {
+  @include base-panel($card-dark-background);
+}
+
+.dse-spotify-panel-medium {
+  @include base-panel($card-medium-background);
+}
+
+.dse-spotify-panel-black {
+  @include base-panel($card-black-background);
+}

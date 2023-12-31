@@ -8,7 +8,7 @@ type Body2Prop = {
     onClick?: () => void
 }
 
-export const Body2 = ({text, className, onClick, color}: Body2Prop)=>{
+export const Body2 = ({text, className, onClick, color=undefined}: Body2Prop)=>{
     const style={
         color
     }

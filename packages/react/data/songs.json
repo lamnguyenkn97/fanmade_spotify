@@ -1,0 +1,2146 @@
+{
+  "data": {
+    "playlistV2": {
+      "__typename": "Playlist",
+      "content": {
+        "__typename": "PlaylistItemsPage",
+        "totalCount": 50,
+        "pagingInfo": {
+          "offset": 25,
+          "limit": 100
+        },
+        "items": [
+          {
+            "uid": "62646661353963613137366134303939",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:2HafqoJbgXdtjwCOvNEF14",
+                "name": "Si No Estás",
+                "trackDuration": {
+                  "totalMilliseconds": 184061
+                },
+                "playcount": "404072342",
+                "albumOfTrack": {
+                  "uri": "spotify:album:66k6EGkPtYoN44anGIsEPW",
+                  "name": "Si No Estás",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:0jbo7KFNMiIkfBR6ih0yhm",
+                        "profile": {
+                          "name": "iñigo quintero"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e025cb9531348f45311cd6fb8df",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048515cb9531348f45311cd6fb8df",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2735cb9531348f45311cd6fb8df",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:0jbo7KFNMiIkfBR6ih0yhm",
+                      "profile": {
+                        "name": "iñigo quintero"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "62373562386166363362313136663839",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:4rXLjWdF2ZZpXCVTfWcshS",
+                "name": "fukumean",
+                "trackDuration": {
+                  "totalMilliseconds": 125040
+                },
+                "playcount": "531220363",
+                "albumOfTrack": {
+                  "uri": "spotify:album:5qmZefgh78fN3jsyPPlvuw",
+                  "name": "a Gift & a Curse",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:2hlmm7s2ICUX0LVIhVFlZQ",
+                        "profile": {
+                          "name": "Gunna"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02017d5e26552345c4b1575b6c",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851017d5e26552345c4b1575b6c",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273017d5e26552345c4b1575b6c",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:2hlmm7s2ICUX0LVIhVFlZQ",
+                      "profile": {
+                        "name": "Gunna"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 6,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "62326135343232303838656634633830",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:5w40ZYhbBMAlHYNDaVJIUu",
+                "name": "Chemical",
+                "trackDuration": {
+                  "totalMilliseconds": 184013
+                },
+                "playcount": "380255255",
+                "albumOfTrack": {
+                  "uri": "spotify:album:7qcSUc5Af63mhfTF60KTEA",
+                  "name": "Chemical",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60",
+                        "profile": {
+                          "name": "Post Malone"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f76f8deeba5370c98ad38f1c",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851f76f8deeba5370c98ad38f1c",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f76f8deeba5370c98ad38f1c",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60",
+                      "profile": {
+                        "name": "Post Malone"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "62396234396638326565353237376137",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:1vYXt7VSjH9JIM5oRRo7vA",
+                "name": "Dance The Night - From Barbie The Album",
+                "trackDuration": {
+                  "totalMilliseconds": 176579
+                },
+                "playcount": "599574799",
+                "albumOfTrack": {
+                  "uri": "spotify:album:5cH7FqB7JD5q1tJXJ7FHYu",
+                  "name": "Dance The Night (From Barbie The Album)",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we",
+                        "profile": {
+                          "name": "Dua Lipa"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e027dd3ba455ee3390cb55b0192",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048517dd3ba455ee3390cb55b0192",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2737dd3ba455ee3390cb55b0192",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we",
+                      "profile": {
+                        "name": "Dua Lipa"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "38643730663362613630623934613265",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:7CyPwkp0oE8Ro9Dd5CUDjW",
+                "name": "One Of The Girls (with JENNIE, Lily Rose Depp)",
+                "trackDuration": {
+                  "totalMilliseconds": 244684
+                },
+                "playcount": "283327722",
+                "albumOfTrack": {
+                  "uri": "spotify:album:7tzVd1fwkxsorytCBjEJkU",
+                  "name": "The Idol Episode 4 (Music from the HBO Original Series)",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+                        "profile": {
+                          "name": "The Weeknd"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:250b0Wlc5Vk0CoUsaCY84M",
+                        "profile": {
+                          "name": "JENNIE"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:1pBLC0qVRTB5zVMuteQ9jJ",
+                        "profile": {
+                          "name": "Lily-Rose Depp"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02b0dd6a5cd1dec96c4119c262",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851b0dd6a5cd1dec96c4119c262",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273b0dd6a5cd1dec96c4119c262",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ",
+                      "profile": {
+                        "name": "The Weeknd"
+                      }
+                    },
+                    {
+                      "uri": "spotify:artist:250b0Wlc5Vk0CoUsaCY84M",
+                      "profile": {
+                        "name": "JENNIE"
+                      }
+                    },
+                    {
+                      "uri": "spotify:artist:1pBLC0qVRTB5zVMuteQ9jJ",
+                      "profile": {
+                        "name": "Lily-Rose Depp"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "62373836323536366561306563313631",
+            "addedAt": {
+              "isoString": "2023-12-01T05:00:00.052Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:3CWq0pAKKTWb0K4yiglDc4",
+                "name": "You’re Losing Me (From The Vault)",
+                "trackDuration": {
+                  "totalMilliseconds": 277831
+                },
+                "playcount": "81604071",
+                "albumOfTrack": {
+                  "uri": "spotify:album:5q3jthpn2h59P7pe2gmAl7",
+                  "name": "You're Losing Me (From The Vault)",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+                        "profile": {
+                          "name": "Taylor Swift"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e024fe1868aa6838eb595f3673a",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048514fe1868aa6838eb595f3673a",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2734fe1868aa6838eb595f3673a",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+                      "profile": {
+                        "name": "Taylor Swift"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "33366462363532373466623031643766",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:17cia5k4BpGVlyEfqrFH50",
+                "name": "Can’t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes",
+                "trackDuration": {
+                  "totalMilliseconds": 205483
+                },
+                "playcount": "105601743",
+                "albumOfTrack": {
+                  "uri": "spotify:album:2yHTMVFGHODKJOjVL1hLgk",
+                  "name": "The Hunger Games: The Ballad of Songbirds & Snakes (Music From & Inspired By)",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:1McMsnEElThX1knmY4oliG",
+                        "profile": {
+                          "name": "Olivia Rodrigo"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:1q9hWC9JAJXjXwZN9aDKW3",
+                        "profile": {
+                          "name": "Rachel Zegler"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:4SfGzWmeoNPKIOmiyc7Pav",
+                        "profile": {
+                          "name": "Flatland Cavalry"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0222ad9f1afdbeeceaf0c91686",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000485122ad9f1afdbeeceaf0c91686",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27322ad9f1afdbeeceaf0c91686",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:1McMsnEElThX1knmY4oliG",
+                      "profile": {
+                        "name": "Olivia Rodrigo"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "35313439333934383731623865656232",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:5Eh1nj7IjV9lwpcKAkidyY",
+                "name": "One Of Your Girls",
+                "trackDuration": {
+                  "totalMilliseconds": 181481
+                },
+                "playcount": "109852799",
+                "albumOfTrack": {
+                  "uri": "spotify:album:5UcGyEltve5psjxSRsHx8E",
+                  "name": "Something To Give Each Other",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:3WGpXCj9YhhfX11TToZcXP",
+                        "profile": {
+                          "name": "Troye Sivan"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0267103283a4eb57578a428252",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000485167103283a4eb57578a428252",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27367103283a4eb57578a428252",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:3WGpXCj9YhhfX11TToZcXP",
+                      "profile": {
+                        "name": "Troye Sivan"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 3,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "36383931616532393334376338323763",
+            "addedAt": {
+              "isoString": "2023-12-01T05:00:00.052Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:0cVyQfDyRnMJ0V3rjjdlU3",
+                "name": "Lil Boo Thang",
+                "trackDuration": {
+                  "totalMilliseconds": 114233
+                },
+                "playcount": "94980951",
+                "albumOfTrack": {
+                  "uri": "spotify:album:1j5AROUr8rq5xb2CXDIH1c",
+                  "name": "Lil Boo Thang",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:4zoRNhOhsGX3w8yBAnFSQ8",
+                        "profile": {
+                          "name": "Paul Russell"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02811b8a1d3649f63af1d5fb65",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851811b8a1d3649f63af1d5fb65",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273811b8a1d3649f63af1d5fb65",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:4zoRNhOhsGX3w8yBAnFSQ8",
+                      "profile": {
+                        "name": "Paul Russell"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "65653138623763643466666535303939",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:0HD8mbiPjp3o94X3EaZp0o",
+                "name": "exes",
+                "trackDuration": {
+                  "totalMilliseconds": 159400
+                },
+                "playcount": "83891624",
+                "albumOfTrack": {
+                  "uri": "spotify:album:54FpKE2Pug3xbPz26WUVSH",
+                  "name": "exes",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:45dkTj5sMRSjrmBSBeiHym",
+                        "profile": {
+                          "name": "Tate McRae"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e023abcdf926da7799a87d36406",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048513abcdf926da7799a87d36406",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2733abcdf926da7799a87d36406",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:45dkTj5sMRSjrmBSBeiHym",
+                      "profile": {
+                        "name": "Tate McRae"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "36326439303733613634303963346461",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:6wsqVwoiVH2kde4k4KKAFU",
+                "name": "I KNOW ?",
+                "trackDuration": {
+                  "totalMilliseconds": 211582
+                },
+                "playcount": "288704088",
+                "albumOfTrack": {
+                  "uri": "spotify:album:18NOKLkZETa4sWwLMIm0UZ",
+                  "name": "UTOPIA",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY",
+                        "profile": {
+                          "name": "Travis Scott"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02881d8d8378cd01099babcd44",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851881d8d8378cd01099babcd44",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273881d8d8378cd01099babcd44",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:0Y5tJX1MQlPlqiwlOH1tJY",
+                      "profile": {
+                        "name": "Travis Scott"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 10,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "64343733366135626635383463336534",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:1odExI7RdWc4BT515LTAwj",
+                "name": "Daylight",
+                "trackDuration": {
+                  "totalMilliseconds": 212953
+                },
+                "playcount": "808656242",
+                "albumOfTrack": {
+                  "uri": "spotify:album:6NcI39WPu4kY6Tul11nhSv",
+                  "name": "Daylight",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:33NVpKoXjItPwUJTMZIOiY",
+                        "profile": {
+                          "name": "David Kushner"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0295ca6a9b4083a86c149934ae",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000485195ca6a9b4083a86c149934ae",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27395ca6a9b4083a86c149934ae",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:33NVpKoXjItPwUJTMZIOiY",
+                      "profile": {
+                        "name": "David Kushner"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "34316237646663643630613262353837",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:5sdQOyqq2IDhvmx2lHOpwd",
+                "name": "Super Shy",
+                "trackDuration": {
+                  "totalMilliseconds": 154666
+                },
+                "playcount": "392504185",
+                "albumOfTrack": {
+                  "uri": "spotify:album:5V729UqvhwNOcMejx0m55I",
+                  "name": "NewJeans 'Super Shy'",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d",
+                        "profile": {
+                          "name": "NewJeans"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e023d98a0ae7c78a3a9babaf8af",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048513d98a0ae7c78a3a9babaf8af",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2733d98a0ae7c78a3a9babaf8af",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d",
+                      "profile": {
+                        "name": "NewJeans"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 2,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "61616262313834376433376530643731",
+            "addedAt": {
+              "isoString": "2023-12-08T05:00:00.050Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:4I4G0LD277PWvfblYtSf91",
+                "name": "Needle (feat. Drake)",
+                "trackDuration": {
+                  "totalMilliseconds": 235689
+                },
+                "playcount": "28478704",
+                "albumOfTrack": {
+                  "uri": "spotify:album:2bYCNZfxZrTUv1CHXkz2d2",
+                  "name": "Pink Friday 2",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh",
+                        "profile": {
+                          "name": "Nicki Minaj"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02651e1dbc0b5218f2306181a1",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851651e1dbc0b5218f2306181a1",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273651e1dbc0b5218f2306181a1",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh",
+                      "profile": {
+                        "name": "Nicki Minaj"
+                      }
+                    },
+                    {
+                      "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4",
+                      "profile": {
+                        "name": "Drake"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 9,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "36646665653662383065346234636132",
+            "addedAt": {
+              "isoString": "2023-12-22T05:00:00.049Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:7bywjHOc0wSjGGbj04XbVi",
+                "name": "LUNA",
+                "trackDuration": {
+                  "totalMilliseconds": 196800
+                },
+                "playcount": "60240391",
+                "albumOfTrack": {
+                  "uri": "spotify:album:0lgs2Sa82lyX89nBUWyUy6",
+                  "name": "FERXXOCALIPSIS",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:2LRoIwlKmHjgvigdNGBHNo",
+                        "profile": {
+                          "name": "Feid"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f1aad814a40ec7419c234242",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851f1aad814a40ec7419c234242",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f1aad814a40ec7419c234242",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:2LRoIwlKmHjgvigdNGBHNo",
+                      "profile": {
+                        "name": "Feid"
+                      }
+                    },
+                    {
+                      "uri": "spotify:artist:7jAs1uPnpfNmT6e5qtEPxq",
+                      "profile": {
+                        "name": "ATL Jacob"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 6,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "62313531633936316231636439306261",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:73RbfOTJIjHzi2pcVHjeHM",
+                "name": "What It Is (Solo Version)",
+                "trackDuration": {
+                  "totalMilliseconds": 189824
+                },
+                "playcount": "248793981",
+                "albumOfTrack": {
+                  "uri": "spotify:album:71MqBkcflJ1Rz1SHo8XSi5",
+                  "name": "What It Is (Versions)",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:4E2rKHVDssGJm2SCDOMMJB",
+                        "profile": {
+                          "name": "Doechii"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e022ee85751f6f503fa9a533eba",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048512ee85751f6f503fa9a533eba",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2732ee85751f6f503fa9a533eba",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:4E2rKHVDssGJm2SCDOMMJB",
+                      "profile": {
+                        "name": "Doechii"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 2,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "37363364363834613237623263613365",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:7aqfrAY2p9BUSiupwk3svU",
+                "name": "First Person Shooter (feat. J. Cole)",
+                "trackDuration": {
+                  "totalMilliseconds": 247444
+                },
+                "playcount": "165464130",
+                "albumOfTrack": {
+                  "uri": "spotify:album:4czdORdCWP9umpbhFXK2fW",
+                  "name": "For All The Dogs",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4",
+                        "profile": {
+                          "name": "Drake"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e027d384516b23347e92a587ed1",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d000048517d384516b23347e92a587ed1",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2737d384516b23347e92a587ed1",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:3TVXtAsR1Inumwj472S9r4",
+                      "profile": {
+                        "name": "Drake"
+                      }
+                    },
+                    {
+                      "uri": "spotify:artist:6l3HvQ5sa6mXTsMTB19rO5",
+                      "profile": {
+                        "name": "J. Cole"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 6,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "66656164623265316239306133316433",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:1Iq8oo9XkmmvCQiGOfORiz",
+                "name": "Is It Over Now? (Taylor's Version) (From The Vault)",
+                "trackDuration": {
+                  "totalMilliseconds": 229477
+                },
+                "playcount": "206845323",
+                "albumOfTrack": {
+                  "uri": "spotify:album:64LU4c1nfjz1t4VnGhagcg",
+                  "name": "1989 (Taylor's Version)",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+                        "profile": {
+                          "name": "Taylor Swift"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02904445d70d04eb24d6bb79ac",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851904445d70d04eb24d6bb79ac",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273904445d70d04eb24d6bb79ac",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02",
+                      "profile": {
+                        "name": "Taylor Swift"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 21,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "64613661343733356633323961633162",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:2i2gDpKKWjvnRTOZRhaPh2",
+                "name": "Moonlight",
+                "trackDuration": {
+                  "totalMilliseconds": 187557
+                },
+                "playcount": "520687408",
+                "albumOfTrack": {
+                  "uri": "spotify:album:1y8Yw0NDcP2qxbZufIXt7u",
+                  "name": "Moonlight",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:1U1el3k54VvEUzo3ybLPlM",
+                        "profile": {
+                          "name": "Kali Uchis"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02b13b4a434585f484548e42c9",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851b13b4a434585f484548e42c9",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273b13b4a434585f484548e42c9",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:1U1el3k54VvEUzo3ybLPlM",
+                      "profile": {
+                        "name": "Kali Uchis"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "31353466646336363663303333323862",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:59NraMJsLaMCVtwXTSia8i",
+                "name": "Prada",
+                "trackDuration": {
+                  "totalMilliseconds": 132359
+                },
+                "playcount": "301786533",
+                "albumOfTrack": {
+                  "uri": "spotify:album:5MU0RmBSpoSxOPYBfcobDc",
+                  "name": "Prada",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:5wCmhq5J2hPwL2r0eKurxn",
+                        "profile": {
+                          "name": "cassö"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:5KKpBU5eC2tJDzf0wmlRp2",
+                        "profile": {
+                          "name": "RAYE"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:5VadK1havLhK1OpKYsXv9y",
+                        "profile": {
+                          "name": "D-Block Europe"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02e4b7dccdfd54375ded9ccc5c",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851e4b7dccdfd54375ded9ccc5c",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273e4b7dccdfd54375ded9ccc5c",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:5wCmhq5J2hPwL2r0eKurxn",
+                      "profile": {
+                        "name": "cassö"
+                      }
+                    },
+                    {
+                      "uri": "spotify:artist:5KKpBU5eC2tJDzf0wmlRp2",
+                      "profile": {
+                        "name": "RAYE"
+                      }
+                    },
+                    {
+                      "uri": "spotify:artist:5VadK1havLhK1OpKYsXv9y",
+                      "profile": {
+                        "name": "D-Block Europe"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "EXPLICIT"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "36363537623839626462653962383031",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:3Kw7zkALCVxY4wmlnh2IWC",
+                "name": "Cupid - Twin Ver.",
+                "trackDuration": {
+                  "totalMilliseconds": 174253
+                },
+                "playcount": "746525460",
+                "albumOfTrack": {
+                  "uri": "spotify:album:1ZXXEGGhHYgOEzYUjP6bPR",
+                  "name": "The Beginning: Cupid",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:4GJ6xDCF5jaUqD6avOuQT6",
+                        "profile": {
+                          "name": "FIFTY FIFTY"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f6019075623d95de7e64fa33",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851f6019075623d95de7e64fa33",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f6019075623d95de7e64fa33",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:4GJ6xDCF5jaUqD6avOuQT6",
+                      "profile": {
+                        "name": "FIFTY FIFTY"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 2,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "34376361336434363663373739366633",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:23RoR84KodL5HWvUTneQ1w",
+                "name": "(It Goes Like) Nanana - Edit",
+                "trackDuration": {
+                  "totalMilliseconds": 231545
+                },
+                "playcount": "319946470",
+                "albumOfTrack": {
+                  "uri": "spotify:album:2LVDNOUUy2g8517ZEtQIcK",
+                  "name": "(It Goes Like) Nanana [Edit]",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:2mLA48B366zkELXYx7hcDN",
+                        "profile": {
+                          "name": "Peggy Gou"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0288d71aadd009fe1a83df88f2",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000485188d71aadd009fe1a83df88f2",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27388d71aadd009fe1a83df88f2",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:2mLA48B366zkELXYx7hcDN",
+                      "profile": {
+                        "name": "Peggy Gou"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "38326166353237633531313565316133",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:0yLdNVWF3Srea0uzk55zFn",
+                "name": "Flowers",
+                "trackDuration": {
+                  "totalMilliseconds": 200454
+                },
+                "playcount": "1670630247",
+                "albumOfTrack": {
+                  "uri": "spotify:album:7I0tjwFtxUwBC1vgyeMAax",
+                  "name": "Flowers",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:5YGY8feqx7naU7z4HrwZM6",
+                        "profile": {
+                          "name": "Miley Cyrus"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02f429549123dbe8552764ba1d",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851f429549123dbe8552764ba1d",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273f429549123dbe8552764ba1d",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:5YGY8feqx7naU7z4HrwZM6",
+                      "profile": {
+                        "name": "Miley Cyrus"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 1
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "34626632356135333066643234393533",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:6iF4RgIjDvDqyW13PezSj3",
+                "name": "Single Soon",
+                "trackDuration": {
+                  "totalMilliseconds": 171655
+                },
+                "playcount": "132206136",
+                "albumOfTrack": {
+                  "uri": "spotify:album:6EejduBuRYb7rzJaD2YCqO",
+                  "name": "Single Soon",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx",
+                        "profile": {
+                          "name": "Selena Gomez"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02fabd32dd9cefca8714c0ed41",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851fabd32dd9cefca8714c0ed41",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273fabd32dd9cefca8714c0ed41",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx",
+                      "profile": {
+                        "name": "Selena Gomez"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "uid": "35623665343766626362333438316537",
+            "addedAt": {
+              "isoString": "2023-11-24T05:00:00.082Z"
+            },
+            "addedBy": null,
+            "attributes": [
+              {
+                "key": "decision_id",
+                "value": "ssp|060db297897fae4a21b34638c1b8639c64e9"
+              }
+            ],
+            "itemV2": {
+              "__typename": "TrackResponseWrapper",
+              "data": {
+                "__typename": "Track",
+                "uri": "spotify:track:6GGtHZgBycCgGBUhZo81xe",
+                "name": "Say Yes To Heaven",
+                "trackDuration": {
+                  "totalMilliseconds": 209156
+                },
+                "playcount": "324682237",
+                "albumOfTrack": {
+                  "uri": "spotify:album:6jVg0POvGYH1Pt6lISl3ok",
+                  "name": "Say Yes To Heaven",
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:00FQb4jTyendYWaN8pK0wa",
+                        "profile": {
+                          "name": "Lana Del Rey"
+                        }
+                      }
+                    ]
+                  },
+                  "coverArt": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02aa27708d07f49c82ff0d0dae",
+                        "width": 300,
+                        "height": 300
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d00004851aa27708d07f49c82ff0d0dae",
+                        "width": 64,
+                        "height": 64
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273aa27708d07f49c82ff0d0dae",
+                        "width": 640,
+                        "height": 640
+                      }
+                    ]
+                  }
+                },
+                "artists": {
+                  "items": [
+                    {
+                      "uri": "spotify:artist:00FQb4jTyendYWaN8pK0wa",
+                      "profile": {
+                        "name": "Lana Del Rey"
+                      }
+                    }
+                  ]
+                },
+                "discNumber": 1,
+                "trackNumber": 1,
+                "playability": {
+                  "playable": true,
+                  "reason": "PLAYABLE"
+                },
+                "contentRating": {
+                  "label": "NONE"
+                },
+                "associations": {
+                  "associatedVideos": {
+                    "totalCount": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "extensions": {}
+}

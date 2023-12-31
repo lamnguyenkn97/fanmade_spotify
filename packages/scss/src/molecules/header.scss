@@ -1,6 +1,11 @@
 @import 'foundation/all';
 
 .dse-spotify-header{
-  background-color: $grey0;
+  margin-top: map-get($spacing, 'md');
+  background-color: $header-background;
   width: $header-width;
+  height: $header-height;
+  padding: map-get($spacing, 'md');
+  border-top-left-radius: $card-border-radius;
+  border-top-right-radius: $card-border-radius;
 }
