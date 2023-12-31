@@ -8,8 +8,14 @@ type CardProps = {
     children: React.ReactNode
 }
 
-export const Card = ({variant, width='100%', height='100%', padding=0, children}: CardProps)=>{
-    return(
+export const Card: React.FC<CardProps> = ({
+                                              variant,
+                                              width = '100%',
+                                              height = '100%',
+                                              padding = 0,
+                                              children
+                                          }: CardProps) => {
+    return (
         <div className={`dse-spotify-card-${variant}`} style={{width, height, padding}}>{children}</div>
     )
 }

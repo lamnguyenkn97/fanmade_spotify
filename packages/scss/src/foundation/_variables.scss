@@ -53,7 +53,7 @@ $grey8: #181818;
 $grey9: #121212;
 $grey10: #242424;
 $grey11: #a7a7a7;
-
+$grey12: #101010;
 
 /* Utility Color */
 
@@ -271,8 +271,10 @@ $stack-wrap : (
 /*=============================================
 =            HEADER              =
 */
-$header-width : 70%;
+$header-width : 100%;
+$header-height: 5rem;
 $footer-width: 60%;
+$header-background: $grey12;
 
 /*=============================================
 =            CARD              =
@@ -327,6 +329,13 @@ $toggle-before-radius: 0.3125rem;
 =            HOME PAGE                        =
  */
 
+
+$home-page-padding: 10rem;
+$info-card-width: 95%;
+$home-card-height: 15%;
+$library-card-height: 85%;
+$playlist-card-width: 12.5rem;
+$playlist-card-height: 18.125rem;
 
 
 

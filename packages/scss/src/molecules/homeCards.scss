@@ -1,11 +1,12 @@
+@import 'foundation/all';;
 .dse-spotify-home-card {
-  margin-top: 10px;
-  width: 95%;
-  height: 20%;
+  margin-top: map-get($spacing, 'md');
+  width: $info-card-width;
+  height: $home-card-height;
 }
 
 .dse-spotify-library-card{
-   margin-top: 5px;
-   width: 95%;
-   height: 80%;
+   margin-top: map-get($spacing, 'xxxs');
+   width: $info-card-width;;
+   height: $library-card-height;
  }

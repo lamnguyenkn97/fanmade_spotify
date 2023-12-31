@@ -8,7 +8,9 @@ type StackProps = {
     wrap?: 'wrap' | 'nowrap',
     className?: string,
     gap?: '0' | 'xxxs' | 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl' | 'xxxl'
+    width?: string,
     height?: string
+    backgroundColor?: string
 }
 export const Stack = ({
                           children,
@@ -18,10 +20,14 @@ export const Stack = ({
                           wrap = 'nowrap',
                           className,
                           gap = 'xs',
-                          height
+                          width,
+                          height,
+    backgroundColor,
                       }: StackProps) => {
     const stackStyle = {
-        height: height,
+        width,
+        height,
+        backgroundColor
     }
     return (
         <div className={`dse-spotify-stack-${direction}-${align}-${justify}-${wrap}-${gap} ${className}`}

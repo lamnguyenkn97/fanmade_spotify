@@ -2,5 +2,7 @@
 
 .dse-spotify-footer {
   @include font-medium;
-  width: $footer-width;
+  margin-top: map-get($spacing, 'xxl');
+  flex-grow: 2;
+  padding-left: 0;
 }
