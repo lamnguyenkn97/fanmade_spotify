@@ -118,3 +118,17 @@ $card-black-background: var(
                 --dse-spotify-card-black-background,
                 $black
 ) !default;
+
+
+/*=============================================
+=            Header                          =
+=============================================*/
+
+$header-background: $grey12;
+$header-background-transparent: rgba(0, 0, 0, 0.5);
+
+
+/*=============================================
+=            Track                          =
+=============================================*/
+$track-background-hover: rgba(255, 255, 255, 0.2);

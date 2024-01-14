@@ -1,0 +1,18 @@
+@import 'foundation/all';
+
+.dse-spotify-playlist-cover {
+  h2 {
+    margin: 0;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    li{
+      margin-right: 20px;
+      color: white;
+    }
+  }
+  background: linear-gradient(180deg, #cfcfcf, #838383);
+  height: 400px;
+  width: 100%;
+}

@@ -17,8 +17,8 @@
     font-size: $body1-font-size;
     font-weight: $body-font-weight;
     text-decoration: none;
-    &:hover {
-        color: $white;
+    &>*:hover {
+        color: $white!important;
         text-decoration: underline;
     }
 }

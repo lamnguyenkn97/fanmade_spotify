@@ -3,13 +3,15 @@ import {Divider, Link, SpotifyIcon, Stack} from "../../atoms";
 import {faChevronLeft, faChevronRight} from "@fortawesome/free-solid-svg-icons";
 import {Colors} from "@dse.e/foundation/lib/color";
 
-export const Header = () => {
+export const Header = ({transparent = false}: { transparent?: boolean }) => {
     return (
-        <div className={'dse-spotify-header'}>
+        <div className={transparent ? 'dse-spotify-header-transparent' : 'dse-spotify-header'}>
             <Stack direction='row' justify={'space-between'} align={'center'} wrap={'nowrap'} height={'100%'}>
                 <Stack direction='row' justify={'space-around'} align={'center'} wrap={'nowrap'} gap={'xs'}>
-                    <SpotifyIcon icon={faChevronLeft} size={'2x'} color={Colors.grey13} border backgroundColor={'black'}/>
-                    <SpotifyIcon icon={faChevronRight} size={'2x'} color={Colors.grey13} border backgroundColor={'black'}/>
+                    <SpotifyIcon icon={faChevronLeft} size={'2x'} color={Colors.grey13} border
+                                 backgroundColor={'black'}/>
+                    <SpotifyIcon icon={faChevronRight} size={'2x'} color={Colors.grey13} border
+                                 backgroundColor={'black'}/>
                 </Stack>
                 <Stack direction='row' justify={'space-around'} align={'center'} wrap={'nowrap'}>
                     <Link text='Premium' to='/' color={Colors.grey11}/>
