@@ -11,6 +11,8 @@ type StackProps = {
     width?: string,
     height?: string
     backgroundColor?: string
+    onMouseEnter?: () => void
+    onMouseLeave?: () => void
 }
 export const Stack = ({
                           children,
@@ -22,7 +24,11 @@ export const Stack = ({
                           gap = 'xs',
                           width,
                           height,
-    backgroundColor,
+                          backgroundColor,
+                          onMouseEnter = () => {
+                          },
+                          onMouseLeave = () => {
+                          }
                       }: StackProps) => {
     const stackStyle = {
         width,
@@ -30,7 +36,8 @@ export const Stack = ({
         backgroundColor
     }
     return (
-        <div className={`dse-spotify-stack-${direction}-${align}-${justify}-${wrap}-${gap} ${className}`}
+        <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}
+             className={`dse-spotify-stack-${direction}-${align}-${justify}-${wrap}-${gap} ${className}`}
              style={stackStyle}>
             {children}
         </div>

@@ -1,16 +1,19 @@
 import React from 'react'
+import {imageSizes} from "./imageSizes";
+
 type ImageProps = {
     src: string;
     alt: string;
-    width: string;
-    height: string;
+    width?: string;
+    height?: string;
     variant?: 'round' | 'square';
+    imageSize?: keyof typeof imageSizes;
 }
 
-export const Image = ({src, alt, width, height, variant='square'}: ImageProps) => {
+export const Image = ({src, alt, width=undefined, height=undefined, variant = 'square', imageSize = undefined}: ImageProps) => {
     const style = {
-        width: width,
-        height: height,
+        width: imageSize ? imageSizes[imageSize].toString() + 'px' : width,
+        height: imageSize ? imageSizes[imageSize].toString() + 'px' : height,
         borderRadius: variant === 'round' ? '50%' : '0'
     }
     return (

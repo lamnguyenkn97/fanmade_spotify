@@ -19,10 +19,12 @@ import '@dse.spotify/scss/src/lib/loginPage.css';
 import '@dse.spotify/scss/src/lib/homeCards.css';
 import '@dse.spotify/scss/src/lib/playlist.css';
 import '@dse.spotify/scss/src/lib/panel.css';
-import {HomePage} from "@dse.spotify/react";
+import '@dse.spotify/scss/src/lib/playlistCover.css';
+import '@dse.spotify/scss/src/lib/song.css';
+import {SongListPage} from "@dse.spotify/react";
 
 
 ReactDOM.render(
-    <HomePage/>
+    <SongListPage/>
     ,
     document.getElementById('root'))

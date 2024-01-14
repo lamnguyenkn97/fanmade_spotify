@@ -9,9 +9,9 @@ import {faFacebook, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-i
 export const PlaylistPage = () => {
     return (
         <>
+            <Header/>
             <Stack direction={'column'} width={'70%'} height={'100%'}>
                 <Stack direction={'column'} gap={'0'} width={'100%'} >
-                    <Header/>
                     <Panel variant={'black'}>
                         {playlistData.map(playlist => (
                             <>
