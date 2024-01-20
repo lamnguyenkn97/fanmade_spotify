@@ -5,10 +5,10 @@ import {PlaylistPage} from "../organism";
 import {Colors} from "@dse.e/foundation/lib/color";
 
 export const HomePage = () => {
-    return(
-        <Stack gap={'0'} backgroundColor={Colors.black} height={'150vh'}>
-            <VerticalNavBar />
-            <PlaylistPage />
+    return (
+        <Stack gap={'0'} align={"start"} backgroundColor={Colors.black} height={'150vh'} width={'100%'}>
+            <VerticalNavBar/>
+            <PlaylistPage/>
         </Stack>
     )
 }

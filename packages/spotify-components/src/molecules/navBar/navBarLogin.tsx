@@ -6,7 +6,9 @@ export const NavBarLogin = () => {
     return (
         <header className={'dse-spotify-navbar-login'}>
             <Stack direction={'row'} justify={'space-between'} align={'center'} wrap={'nowrap'} height={'100%'}>
-                <Image src={spotifyLogo} alt={'Spotify Logo'} width={'117px'} height={'36px'}/>
+                <Image src={spotifyLogo} alt={'Spotify Logo'} width={'117px'} height={'36px'} onClick={()=> {
+                    window.location.href = '/'
+                }}/>
             </Stack>
         </header>
     )

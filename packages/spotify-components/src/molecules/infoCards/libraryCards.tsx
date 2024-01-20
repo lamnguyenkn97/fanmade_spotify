@@ -6,7 +6,7 @@ import {Colors} from "@dse.e/foundation/lib/color";
 export const LibraryCards = () => {
     return(
         <div className={'dse-spotify-library-card'}>
-            <Card variant={'dark'} padding={'10px'}>
+            <Card variant={'dark'} padding={'10px'} height={'100%'}>
                 <Stack direction={'column'} wrap={'nowrap'} justify={'space-between'} align={'start'} height={'100%'}>
                     <Stack direction={'column'} align={'start'} width={'100%'}>
                         <Stack justify={'space-between'} width={'100%'}>

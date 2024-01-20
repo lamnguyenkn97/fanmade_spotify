@@ -1,5 +1,5 @@
 {
-  "name": "@dse.spotify/react",
+  "name": "@dse.spotify/spotify-components",
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",

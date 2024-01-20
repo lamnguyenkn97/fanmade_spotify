@@ -4,6 +4,7 @@
   height: $login-page-height;
   padding: $login-page-padding;
   padding-top: $login-page-padding-top;
+  background: $login-page-background;
   .dse-spotify-login-toggle {
     width: calc(#{$input-width} + 0.5rem);
     padding: 0;

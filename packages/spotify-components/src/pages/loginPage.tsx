@@ -4,7 +4,6 @@ import {faApple, faFacebook, faGoogle} from "@fortawesome/free-brands-svg-icons"
 import {NavBarLogin} from "../molecules/navBar";
 import {Colors} from "@dse.e/foundation/lib/color";
 import {Toggle} from "../atoms/toggleButton";
-
 export const LoginPage = () => {
     return (
         <>
