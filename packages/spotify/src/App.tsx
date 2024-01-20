@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {HomePage} from "@dse.spotify/spotify-components";
+import {HomePage, LoginPage, SongListPage} from "@dse.spotify/spotify-components";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import '@dse.spotify/scss/src/lib/button.css';
 import '@dse.spotify/scss/src/lib/textButton.css';
 import '@dse.spotify/scss/src/lib/utility.css';
@@ -23,5 +23,18 @@ import '@dse.spotify/scss/src/lib/panel.css';
 import '@dse.spotify/scss/src/lib/playlistCover.css';
 import '@dse.spotify/scss/src/lib/song.css';
 
-ReactDOM.render(<HomePage />,
-    document.getElementById('root'))
+function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="">
+                    <Route path='/' index element={<HomePage/>}/>
+                    <Route path='/login' element={<LoginPage/>}/>
+                    <Route path='/playlist' element={<SongListPage/>}/>
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
+}
+
+export default App;
