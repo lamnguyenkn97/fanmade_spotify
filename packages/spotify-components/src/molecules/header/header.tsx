@@ -18,7 +18,7 @@ export const Header = ({transparent = false}: { transparent?: boolean }) => {
                     <Link text='Support' to='/' color={Colors.grey11}/>
                     <Link text='Download' to='/' color={Colors.grey11}/>
                     <Divider width={2} height={30}/>
-                    <Link text='Signup' to='/' color={Colors.grey11}/>
+                    <Link text='Signup' to='/signup' color={Colors.grey11}/>
                     <Link text='Login' to='/login' color={Colors.grey11}/>
                 </Stack>
             </Stack>
