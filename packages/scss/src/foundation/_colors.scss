@@ -95,7 +95,7 @@ $icon-background-color-hover: var(
 $icon-border-radius: var(--dse-spotify-icon-border-radius, 50%) !default;
 
 /*=============================================
-=            Background Icon                =
+=            Card                 =
 =============================================*/
 
 $card-light-background: var(
@@ -129,9 +129,13 @@ $header-background-transparent: rgba(0, 0, 0, 0.5);
 
 
 
-
-
 /*=============================================
 =            Track                          =
 =============================================*/
 $track-background-hover: rgba(255, 255, 255, 0.2);
+
+
+/*=============================================
+=            Playlist                 =
+=============================================*/
+

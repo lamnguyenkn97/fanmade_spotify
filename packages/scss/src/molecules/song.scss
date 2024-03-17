@@ -1,7 +1,7 @@
 @import 'foundation/all';
 
 .dse-spotify-songs{
-  background: linear-gradient(180deg,#5b5b5b, #121212);
+  background: $song-background-color;
   width: 100%;
   .dse-spotify-track{
     &:hover{

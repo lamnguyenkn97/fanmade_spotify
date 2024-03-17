@@ -23,5 +23,6 @@ import '@dse.spotify/scss/src/lib/panel.css';
 import '@dse.spotify/scss/src/lib/playlistCover.css';
 import '@dse.spotify/scss/src/lib/song.css';
 
+
 ReactDOM.render(<HomePage />,
     document.getElementById('root'))

@@ -1,0 +1,11 @@
+@import 'foundation/all';
+.dse-spotify-genre-card {
+  border-radius: $input-border-radius;
+  width: $genre-card-width;
+  height: $genre-card-width;
+  overflow: hidden;
+  img {
+    transform: translateX($transform-image-translate-X) rotate($transform-image-rotate) ;
+    object-fit: cover;
+  }
+}

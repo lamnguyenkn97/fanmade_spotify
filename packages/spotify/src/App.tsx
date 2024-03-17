@@ -1,5 +1,6 @@
 import React from 'react';
-import {HomePage, LoginPage, SongListPage, SignupPage} from "@dse.spotify/spotify-components";
+// @ts-ignore
+import {HomePage, LoginPage, SongListPage, SignupPage, SearchPage} from "@dse.spotify/spotify-components";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import '@dse.spotify/scss/src/lib/button.css';
 import '@dse.spotify/scss/src/lib/textButton.css';
@@ -23,7 +24,8 @@ import '@dse.spotify/scss/src/lib/panel.css';
 import '@dse.spotify/scss/src/lib/playlistCover.css';
 import '@dse.spotify/scss/src/lib/song.css';
 import '@dse.spotify/scss/src/lib/signupPage.css';
-
+import '@dse.spotify/scss/src/lib/genreCard.css';
+import '@dse.spotify/scss/src/lib/searchInput.css';
 
 function App() {
     return (
@@ -34,6 +36,7 @@ function App() {
                     <Route path='/login' element={<LoginPage/>}/>
                     <Route path='/signup' element={<SignupPage/>}/>
                     <Route path='/playlist' element={<SongListPage/>}/>
+                    <Route path='/search' element={<SearchPage/>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

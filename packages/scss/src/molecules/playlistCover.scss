@@ -9,10 +9,10 @@
     justify-content: space-between;
     li{
       margin-right: 20px;
-      color: white;
+      color: $white;
     }
   }
-  background: linear-gradient(180deg, #cfcfcf, #838383);
-  height: 400px;
-  width: 100%;
+  background: $playlist-cover-background;
+  height: $playlist-cover-height;
+  width: $playlist-cover-width;
 }
