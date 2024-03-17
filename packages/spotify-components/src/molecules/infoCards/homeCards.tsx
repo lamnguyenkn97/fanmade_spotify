@@ -9,7 +9,10 @@ export const HomeCards = () => {
                 <Stack direction={'column'} wrap={'nowrap'} justify={'center'} align={'start'}>
                     <Image src={spotifyLogo} alt={'Spotify-logo'} width={'78px'} height={'24px'} />
                     <TextButton variant={'primary'} text={'Home'} onClick={()=> {}} icon={faHome}/>
-                    <TextButton variant={'primary'} text={'Search'} onClick={()=> {}} icon={faSearch}/>
+                    <TextButton variant={'primary'} text={'Search'} onClick={()=> {
+                        window.location.href = '/search'
+
+                    }} icon={faSearch}/>
                 </Stack>
             </Card>
         </div>

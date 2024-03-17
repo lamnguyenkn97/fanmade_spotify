@@ -337,7 +337,39 @@ $library-card-height: 85%;
 $playlist-card-width: 12.5rem;
 $playlist-card-height: 18.125rem;
 
+/*=============================================
+=            GENRE CARD                           =
+=============================================*/
 
+$genre-card-width: 12.5rem;
+$transform-image-translate-X: 6.25rem;
+$transform-image-rotate: 20deg;
+
+
+/*=============================================
+=            PLAYLIST COVER                        =
+=============================================*/
+$stop1-background-cover: #cfcfcf;
+$stop2-background-cover: #838383;
+$playlist-cover-background: linear-gradient(180deg, $stop1-background-cover, $stop2-background-cover);
+$playlist-cover-width: 100%;
+$playlist-cover-height: 25rem;
+
+/*=============================================
+=            SEARCH INPUT                        =
+=============================================*/
+
+$search-input-border-radius: 1.875rem;
+$search-input-padding-left: 15%;
+
+
+/*=============================================
+=            SONGS                           =
+=============================================*/
+
+$stop1-song-background: #5b5b5b;
+$stop2-song-background: #121212;
+$song-background-color: linear-gradient(180deg, $stop1-song-background, $stop2-song-background);
 
 
 
